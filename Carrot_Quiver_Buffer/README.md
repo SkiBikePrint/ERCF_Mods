@@ -4,14 +4,15 @@ The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/9097439154
 Assembly Steps:
 1. Press fit 608-2RS bearing into wheel.  
 2. Press Axle through bearing flush to the shoulder on the axle.  
-3. Press Axle Spacer onto axle flush to bearing.
-4. Install heatset inserts into Wheel Block.
-5. Screw in M5x16 (or M3x16) into heatset inserts.
-6. If there is any rubbing/interference with the wheel and Wheel Block or Top Mount, locate spot(s) and clean up with exacto, sandpaper, etc.
-7. Mount top and bottom mounts onto printer extrusions in the desire location using M5 roll-in T-nuts and M5x16 socket head cap screws.  Once buffer is fully assembled it is necessary to remove the slots to access these screws so you will want to get the mounts positioned into their final location if possible.  It is not the end of the world if you have to move them, it just takes a few minutes to pop the slots back out of the mounts.
-8. Slide the first section of the "Filament Slots 165" part into top mount.  It will not snap into place so you need to hold it in place for now.
-9. Slide the second "Filament Slots 165" part into the slots above it.
-10. Slide the third section, the "Filament Slots Lower 165" part (it has a floor) into the bottom mount.  Firmly press it upwards until it snaps into place.  If you need to removed this part to remove or relocate the buffer you can use a flat bladed screwdriver to gently pry each side of the buffer slots from below while pushing down on the buffer slots to clear the retention tabs.
+3. Press a total of (8) 8x3mm neodymium into the Wheel Block and Top Mount.  Take care to get orientation the same for all four on each part correct so that they attract to each other and allow for the Wheel Block to be oriented on the Top Mount in either direction as it is a symmetrical part.  Removal slots are designed in for the magnets if you need to pop any out.  These should be a strong press fit bit depending on your print toleraces you can add a dab of superglue in the bottom of each hole as you are installing (again, confirm orientation before commiting to glue!).  Also, note that the magnets should slightly protrude out of the Top Mount and be recessed in the Wheel Block which provides for an alignment feature for the two blocks.  If further positive alignment is needed (but there shouldn't be a need) there is also holes in the these two parts for (2) M3 socket head cap screws.  You can screw the cap screws into the undersized holes in the Wheel Block.  The Top Mount has holes to receive the larger diameter of the socket head of the screws as a slip fit.
+4. Press Axle Spacer onto axle flush to bearing.
+5. Install heatset inserts into Wheel Block.
+6. Screw in M5x16 (or M3x16) into heatset inserts.
+7. If there is any rubbing/interference with the wheel and Wheel Block or Top Mount, locate spot(s) and clean up with exacto, sandpaper, etc.
+8. Mount top and bottom mounts onto printer extrusions in the desire location using M5 roll-in T-nuts and M5x16 socket head cap screws.  Once buffer is fully assembled it is necessary to remove the slots to access these screws so you will want to get the mounts positioned into their final location if possible.  It is not the end of the world if you have to move them, it just takes a few minutes to pop the slots back out of the mounts.
+9. Slide the first section of the "Filament Slots 165" part into top mount.  It will not snap into place so you need to hold it in place for now.
+10. Slide the second "Filament Slots 165" part into the slots above it.
+11. Slide the third section, the "Filament Slots Lower 165" part (it has a floor) into the bottom mount.  Firmly press it upwards until it snaps into place.  If you need to removed this part to remove or relocate the buffer you can use a flat bladed screwdriver to gently pry each side of the buffer slots from below while pushing down on the buffer slots to clear the retention tabs.
 
 Congratulations, you are ready load some carrots into your quiver!  Does that sound inappropriate...???
 
