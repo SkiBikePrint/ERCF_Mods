@@ -8,8 +8,7 @@ For those who may not have M5 heatsets, I have and a version of the Wheel Block 
 It is important that the heatsets get installed straight.  One trick is to have a flat metal object ready and as your are pressing in the heatset stop while it is still slightly above the surface of the wheel block and then finish seating it with the the flat metal object pressing flat against the face of the Wheel Block part.  Some people use black brass wax sealing stamps for this purpose.  I am using a small cylindrical calibration weight.
 #
 #
-![image](https://user-images.githubusercontent.com/99146508/204064087-754af333-19b2-4346-bb9c-7aaf24509941.png)
-![image](https://user-images.githubusercontent.com/99146508/204064084-19e5be4c-3b71-4c7c-a907-bf968ce26308.png)
 ![image](https://user-images.githubusercontent.com/99146508/201385208-b8b762a2-a182-4361-b0ca-81ff4d03c71a.png)
 ![image](https://user-images.githubusercontent.com/99146508/201385286-f2886694-4932-4fee-a045-746c4a64086c.png)
 ![image](https://user-images.githubusercontent.com/99146508/201385442-d1756d61-d571-46b7-ad13-d2b10e60efc9.png)
+![image](https://user-images.githubusercontent.com/99146508/204064084-19e5be4c-3b71-4c7c-a907-bf968ce26308.png)
