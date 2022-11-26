@@ -1,5 +1,5 @@
 # ERCF_Mods
-The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/909743915475816458/1040665326410530836 ) requires (1) 608 2RS bearing per wheel, which supports 3 filament slots.  I am using (2) 5mm heat set inserts and (2) M5 x 16mm long button head screws to secure the plastic axle that runs through the bearings.  There are (6) PC4-M10 bowden fittings per x3 Quiver and I mount the quiver to the 2020 extrusions using (2) total M5 roll-in t-nuts and (2) M5 x 16mm long socket head screws, (1) each for the top and bottom mounts.
+The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/909743915475816458/1040665326410530836 ) , and integrated 3-slot filament buffer to mount on the back of a 3D printer with a v-slot extrusion based frame or use with an intermediate frame system.
 
 BOM per 3 Slot Buffer:
 1. Qty (1) 608-2RS bearing
