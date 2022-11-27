@@ -2,7 +2,7 @@
 The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/909743915475816458/1040665326410530836 ) , and integrated 3-slot filament buffer to mount on the back of a 3D printer with a v-slot extrusion based frame or use with an intermediate frame system.
 
 BOM per 3 Slot Buffer:
-1. Qty (1) 608-2RS bearing
+1. Qty (2) 608-2RS bearing
 2. Qty (2) heat set inserts either M5 (preferred) or M3 for the M3 version Wheel Block and Axle
 3. Qty (2) M5x16 screws to secure wheel axle (any head style, I like the looks of button head for this design) or M3 for the M3 version Wheel Block and Axle
 4. Qty (6) PC4-M10 pneumatic fittings for the bowden tubes
@@ -10,7 +10,7 @@ BOM per 3 Slot Buffer:
 6. Qty (2) M5x16 Socket Head Cap Screws for Top and Bottom frame mounts
 
 Assembly Steps:
-1. Press fit 608-2RS bearing into wheel.  
+1. Press fit the (2) 608-2RS bearings into each side of the wheel. It is IMPORTANT to press to the full depth of the pocket in the wheel.  You can use a second wheel bearing as a pressing tool to drive the bearing in to full depth.
 2. Press Axle through bearing flush to the shoulder on the axle.  
 3. Press a total of (8) 8x3mm neodymium into the Wheel Block and Top Mount.  Take care to get orientation the same for all four on each part correct so that they attract to each other and allow for the Wheel Block to be oriented on the Top Mount in either direction as it is a symmetrical part.  Removal slots are designed in for the magnets if you need to pop any out.  These should be a strong press fit bit depending on your print toleraces you can add a dab of superglue in the bottom of each hole as you are installing (again, confirm orientation before commiting to glue!).  Also, note that the magnets should slightly protrude out of the Top Mount and be recessed in the Wheel Block which provides for an alignment feature for the two blocks.  If further positive alignment is needed (but there shouldn't be a need) there is also holes in the these two parts for (2) M3 socket head cap screws.  You can screw the cap screws into the undersized holes in the Wheel Block.  The Top Mount has holes to receive the larger diameter of the socket head of the screws as a slip fit.
 4. Press Axle Spacer onto axle flush to bearing.
