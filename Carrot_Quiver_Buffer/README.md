@@ -34,4 +34,4 @@ It is important that the heatsets get installed straight.  One trick is to have 
 ![image](https://user-images.githubusercontent.com/99146508/201385208-b8b762a2-a182-4361-b0ca-81ff4d03c71a.png)
 ![image](https://user-images.githubusercontent.com/99146508/201385286-f2886694-4932-4fee-a045-746c4a64086c.png)
 ![image](https://user-images.githubusercontent.com/99146508/201385442-d1756d61-d571-46b7-ad13-d2b10e60efc9.png)
-![image](https://user-images.githubusercontent.com/99146508/204064084-19e5be4c-3b71-4c7c-a907-bf968ce26308.png)
+![image](https://user-images.githubusercontent.com/99146508/204160788-83061850-f0b8-484d-b15e-9aba2a15ad57.png)
