@@ -1,18 +1,23 @@
 # ERCF_Mods
 The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/909743915475816458/1040665326410530836 ) , and integrated 3-slot filament buffer to mount on the back of a 3D printer with a v-slot extrusion based frame or use with an intermediate frame system.
 
+This fork of the project fixes broken and non-watertight geometry.
+It is intended to use 6mm magnets 
+
 BOM per 3 Slot Buffer:
 1. Qty (2) 608-2RS bearing
-2. Qty (2) heat set inserts either M5 (preferred) or M3 for the M3 version Wheel Block and Axle
+2. Qty (2) M3 for the M3 version Wheel Block and Axle
 3. Qty (2) M5x16 screws to secure wheel axle (any head style, I like the looks of button head for this design) or M3 for the M3 version Wheel Block and Axle
-4. Qty (6) PC4-M10 pneumatic fittings for the bowden tubes
+4. Qty (6) ECAS 10mm threaded passthrough connectors
 5. Qty (2) M5 roll-in t-nuts for Top and Bottom frame mounts
 6. Qty (2) M5x16 Socket Head Cap Screws for Top and Bottom frame mounts
+7. Qty (12) 6 x 2.5 mm neodymium magnets
+8. Optional (2) M3 short screws to aid in alignment.  There is a non-threaded hole in the top that will accept those.
 
 Assembly Steps:
 1. Press fit the (2) 608-2RS bearings into each side of the wheel. It is IMPORTANT to press to the full depth of the pocket in the wheel.  You can use a second wheel bearing as a pressing tool to drive the bearing in to full depth.
 2. Press Axle through bearing flush to the shoulder on the axle.  
-3. Press a total of (8) 8x3mm neodymium into the Wheel Block and Top Mount.  Take care to get orientation the same for all four on each part correct so that they attract to each other and allow for the Wheel Block to be oriented on the Top Mount in either direction as it is a symmetrical part.  Removal slots are designed in for the magnets if you need to pop any out.  These should be a strong press fit bit depending on your print toleraces you can add a dab of superglue in the bottom of each hole as you are installing (again, confirm orientation before commiting to glue!).  Also, note that the magnets should slightly protrude out of the Top Mount and be recessed in the Wheel Block which provides for an alignment feature for the two blocks.  If further positive alignment is needed (but there shouldn't be a need) there is also holes in the these two parts for (2) M3 socket head cap screws.  You can screw the cap screws into the undersized holes in the Wheel Block.  The Top Mount has holes to receive the larger diameter of the socket head of the screws as a slip fit.
+3. Press a total of (12) 6x2.5mm neodymium into the Wheel Block and Top Mount.  Take care to get orientation the same for all four on each part correct so that they attract to each other and allow for the Wheel Block to be oriented on the Top Mount in either direction as it is a symmetrical part.  Removal slots are designed in for the magnets if you need to pop any out.  These should be a strong press fit bit depending on your print toleraces you can add a dab of superglue in the bottom of each hole as you are installing (again, confirm orientation before commiting to glue!).  Also, note that the magnets should slightly protrude out of the Top Mount and be recessed in the Wheel Block which provides for an alignment feature for the two blocks.  If further positive alignment is needed (but there shouldn't be a need) there is also holes in the these two parts for (2) M3 socket head cap screws.  You can screw the cap screws into the undersized holes in the Wheel Block.  The Top Mount has holes to receive the larger diameter of the socket head of the screws as a slip fit.
 4. Press Axle Spacer onto axle flush to bearing.
 5. Install heatset inserts into Wheel Block.
 6. Screw in M5x16 (or M3x16) into heatset inserts.
@@ -25,8 +30,6 @@ Assembly Steps:
 Congratulations, you are ready load some carrots into your quiver!  Does that sound inappropriate...???
 
 I will caution that this design has tight tolerances around the wheel so that filament can not get lodged in any gaps or neighboring slots.  This means the axle needs to be aligned well and any rubbing between the wheel and the upper quiver parts may need to be filed, sanded, exacto knifed away.  I also used a M10 tap to clean out the M10x1 printed threads for the bowden fittings and M3 and M4 drill bits to clean up the bowden tube holes.  ~41mm of 4mm bowden tubing should insert through the fitting and down to where it seats in the Wheel Block.  If it does not go in ~41mm then the hole needs to be cleaned out with a 4mm drill bit.  Do not clean out the hole any deeper than 41mm as there is a step down to 3.2mm at this point to serve as a stop for the tubing.  You can run a 3mm drill bit through the entire hole if necessary to ensure an open path for filament.  So this design does require a little bit of post processing and tuning but once right it works well and is easy to thread and gain access to the filament.
-
-For those who may not have M5 heatsets, I have added a version of the Wheel Block and Axle for M3 heatsets and screws.
 
 It is important that the heatsets get installed straight.  One trick is to have a flat metal object ready and as your are pressing in the heatset, stop while it is still slightly above the surface of the wheel block and then finish seating it with the flat metal object pressing flat against the face of the Wheel Block axle boss.  Some people use black brass wax sealing stamps for this purpose.  I am using a small cylindrical calibration weight.
 #
