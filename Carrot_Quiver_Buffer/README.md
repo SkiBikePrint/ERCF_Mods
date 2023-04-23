@@ -28,6 +28,31 @@ Wheel-2 Bearing.stl, Axle [M3 or M5] 2 Bearing.stl, Axle Spacer 2 Bearing.stl
 - Supports: none
 <img src="https://user-images.githubusercontent.com/99146508/233861681-04a7f9a0-0701-420e-85d8-bd9b57b32b8a.png" width="200" height="200">
 
+Bottom Block.stl
+- Orientation:  upside down
+- Supports: under mounting overhangs
+<img src="https://user-images.githubusercontent.com/99146508/233863705-f1ffcbe8-fb5b-45d4-989a-ead8690f04f7.png" width="200" height="200">
+
+Filament Slots Lower.stl
+- Orientation:  vertical
+- Supports: under base overhangs
+<img src="https://user-images.githubusercontent.com/99146508/233864010-4586f18f-6f1f-48b0-bea9-a5dbbb27515a.png" width="200" height="200">
+
+Filament Slots Upper.stl
+- Orientation:  vertical
+- Supports: under slot dividers at base
+<img src="https://user-images.githubusercontent.com/99146508/233864766-6b052176-e57c-4d2c-845c-9a1897ab4dfd.png" width="200" height="200">
+
+Top Mount.stl
+- Orientation:  vertical
+- Supports: under slot dividers at base and mounting overhangs
+<img src="https://user-images.githubusercontent.com/99146508/233865046-6b3a7e8c-6fec-481d-8ccc-a11b4ac22bba.png" width="200" height="200">
+
+Wheel Block [M3 or M5].stl
+- Orientation:  upside down
+- Supports: none
+<img src="https://user-images.githubusercontent.com/99146508/233865181-52b5c38f-4d20-4791-b4f5-dc2ba823445f.png" width="200" height="200">
+
 
 
 Assembly Steps:
