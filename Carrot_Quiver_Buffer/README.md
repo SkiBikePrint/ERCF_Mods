@@ -1,7 +1,7 @@
 # ERCF_Mods
-Test
-
 The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/909743915475816458/1040665326410530836 ) , and integrated 3-slot filament buffer to mount on the back of a 3D printer with a v-slot extrusion based frame or use with an intermediate frame system.
+
+<img src="https://user-images.githubusercontent.com/99146508/233861681-04a7f9a0-0701-420e-85d8-bd9b57b32b8a.png" width="200" height="200">
 
 BOM per 3 Slot Buffer:
 1. Qty (2) 608-2RS bearing
