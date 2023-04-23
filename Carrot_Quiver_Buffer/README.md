@@ -25,8 +25,8 @@ Part Specific:
 
 Wheel-2 Bearing.stl, Axle [M3 or M5] 2 Bearing.stl, Axle Spacer 2 Bearing.stl
 - Orientation:  horizontal
-- Supports: none
-<img src="https://user-images.githubusercontent.com/99146508/233861681-04a7f9a0-0701-420e-85d8-bd9b57b32b8a.png" width="200" height="200">
+- Supports: under bearing pocket overhang
+<img src="https://user-images.githubusercontent.com/99146508/233866230-dec0d1e8-ea42-4073-9981-23632dba694f.png" width="200" height="200">
 
 Bottom Block.stl
 - Orientation:  upside down
