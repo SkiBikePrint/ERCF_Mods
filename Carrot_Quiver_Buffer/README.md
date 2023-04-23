@@ -1,8 +1,6 @@
 # ERCF_Mods
 The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/909743915475816458/1040665326410530836 ) , and integrated 3-slot filament buffer to mount on the back of a 3D printer with a v-slot extrusion based frame or use with an intermediate frame system.
 
-<img src="https://user-images.githubusercontent.com/99146508/233861681-04a7f9a0-0701-420e-85d8-bd9b57b32b8a.png" width="200" height="200">
-
 BOM per 3 Slot Buffer:
 1. Qty (2) 608-2RS bearing
 2. Qty (2) heat set inserts either M5 (preferred) or M3 for the M3 version Wheel Block and Axle
@@ -10,6 +8,27 @@ BOM per 3 Slot Buffer:
 4. Qty (6) PC4-M10 pneumatic fittings for the bowden tubes
 5. Qty (2) M5 roll-in t-nuts for Top and Bottom frame mounts
 6. Qty (2) M5x16 Socket Head Cap Screws for Top and Bottom frame mounts
+
+
+
+Printing Guidelines:
+
+General:
+- Material: ABS
+- 0.2mm layer height
+- 40% infill
+- Wall Count: 4
+- Solid Top/Bottom Layers: 5
+
+Part Specific:
+- Orientation suggestions are relative to a vertically mounted quiver
+
+Wheel-2 Bearing.stl, Axle [M3 or M5] 2 Bearing.stl, Axle Spacer 2 Bearing.stl
+- Orientation:  horizontal
+- Supports: none
+<img src="https://user-images.githubusercontent.com/99146508/233861681-04a7f9a0-0701-420e-85d8-bd9b57b32b8a.png" width="200" height="200">
+
+
 
 Assembly Steps:
 1. Press fit the (2) 608-2RS bearings into each side of the wheel. It is IMPORTANT to press to the full depth of the pocket in the wheel.  You can use a second wheel bearing as a pressing tool to drive the bearing in to full depth.
