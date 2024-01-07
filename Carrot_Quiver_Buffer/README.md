@@ -3,7 +3,7 @@ The "Carrot Quiver" ( https://discord.com/channels/460117602945990666/9097439154
 
 It allows a single 'loop' of filament to be buffered in the +/-1000mm range depending on printer frame height.  This system is intended to minimize filament path  drag compared to multi-loop wheel buffers and provide a quick and easy process for changing out filament spools.
 
-![Alt text](Images/quiver_trident_small.jpeg)![Alt text](Images/quiver_assembled2_small.jpg)
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/4e9a5ad114dc0af0ab6666f9728b76eef709ac2b/Images/quiver_trident_small.jpeg" width="300" height="400"><img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/4e9a5ad114dc0af0ab6666f9728b76eef709ac2b/Images/quiver_assembled2_small.jpg" width="300" height="400">
 
 
 ## **BOM per 3 or 4 Slot Buffer:**
