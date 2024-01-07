@@ -25,8 +25,7 @@ Part Specific:
 Wheel.stl, Axle.stl, Axle Spacer.stl
 - Orientation:  horizontal
 - Supports: shouldn't be necessary
-<img src="https://user-images.githubusercontent.com/99146508/233866230-dec0d1e8-ea42-4073-9981-23632dba694f.png" width="200" height="200">
-[Images/Wheel_Axle_Spacer 2024-01-07 002049.jpg](https://github.com/SkiBikePrint/ERCF_Mods/blob/91b1a9aedfdb30b181a8d640edc9736503bd188f/Images/Wheel_Axle_Spacer%202024-01-07%20002049.jpg)
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91b1a9aedfdb30b181a8d640edc9736503bd188f/Images/Wheel_Axle_Spacer%202024-01-07%20002049.jpg" width="500" height="200">
 
 Bottom Block.stl
 - Orientation:  upside down
