@@ -22,7 +22,7 @@ It allows a single 'loop' of filament to be buffered in the +/-1000mm range depe
 ## **General:**
 - Material: ABS (~450 gm for 3 slot buffer and 600gm for 4 slot buffer)
 - 0.2mm layer height
-- 40% infill
+- 40% infill recommended (20% would be fine if you were in a hurry).  Linear style infills are fastest (rectilinear, monotonic, grid, triangles, stars, etc.)
 - Wall Count: 4
 - Solid Top/Bottom Layers: 5
 
@@ -39,6 +39,7 @@ It allows a single 'loop' of filament to be buffered in the +/-1000mm range depe
 | 1       | Filament Slots(3/4) Lower                                       | Vertical                   | Y - under slot dividers at base         |
 | 1       | Top Mount                                                       | Vertical                   | Y - under slot dividers at base         |
 | 1       | Wheel                                                           | Horizontal                 | N                                       |
+|         | -Slower printing 4-slot Spoke and Sexy Turbine options included |                            |                                         |
 | 1       | Wheel Block                                                     | Upside Down                | N                                       |
 
 Wheel.stl, Axle.stl, Axle Spacer.stl
