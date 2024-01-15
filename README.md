@@ -1,5 +1,5 @@
 # ERCF_Mods
-These files are for a 2020 extrusion based ERCF top mounting that integrates into a set of handles for a Voron Trident or V2.  It includes a roller based spool feed system as well as a 3 slot 1000mm buffer design.
+These files are for a 2020 extrusion based ERCF top mounting that integrates into a set of handles for a Voron Trident or V2.  It includes a roller based spool feed system as well as a 3 and 4 slot 1000mm buffer design.
 #
 #
 ![image](https://user-images.githubusercontent.com/99146508/204062931-6520a5e1-86d6-4056-aeb9-b25cb5553f3e.png)
