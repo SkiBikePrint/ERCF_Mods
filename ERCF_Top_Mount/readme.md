@@ -4,7 +4,7 @@ on Voron 2.x and Trident printers.  The solution includes standalone end mounts 
 
 Assembly tip:  The handles are designed to roll into the 2020 extrusion slots.  Because of this roll-in design, following the installation of the first 
 handle the extrusions must be inserted to the full depth of the extrusion pockets to create enough space to roll in the opposing handle.  Once the second 
-handle is installed the extrusions can be then be slid back out from the first handle pocket and into the second handle pockets.  Now the extrusions are 
+handle is installed, the extrusions can be partially slid back out from the first handle pockets and into the second handle pockets.  Now the extrusions are 
 fully captured and can not come out without the removal of one (or both) handles.
 
 ![image](https://user-images.githubusercontent.com/99146508/204062931-6520a5e1-86d6-4056-aeb9-b25cb5553f3e.png)
