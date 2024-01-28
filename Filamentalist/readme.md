@@ -39,6 +39,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 2.  The one-way bearing behavior seems indeterminate.  I had to add a little friction at the spool roller rim on my proto rig to keep it from locking at load even though the shaft is rotating faster than the bearing race on load.  This is where I replaced 608’s on the shaft with a printed bushing and that slight additional drag at the shaft solved it.  I will be able to test by tonight or tomorrow (80mm shaft delivery delayed to tonight) as to if having the rear roller running on 608’s provides enough system friction to be able to stay with the 608’s up front or if I stay with the bushings (my test rig was a vertical feed spool holder for the belt version so no second spool roller).
 3.  Slippage and grinding at the ERCF gear due to variation of top hat clamping force across the user base.
 4.  The sharp bend at the clamp and tension could cause brittle filament to break (Glenn hasn't experienced yet with 3-4 spools that are relatively fresh)
+5.  If we are on the edge of gear motor stall.  We are close to the stall threshold so the risk is that there is enough variation in the user community's ERCF builds, motors, and buffer builds that stall arises as an issue.  I definitely have occasionally experienced stall if something caused a small increase in resistance.  I may need to go NEMA17 to provide the headroom but will test on NEMA14 first.
 
 
 # Printing Guidelines:
@@ -50,29 +51,36 @@ The filament driven interface interface uses an adjustable spring clamp that for
 - 40% infill recommended.  Linear style infills are fastest (rectilinear, monotonic, grid, triangles, stars, etc.)
 - Wall Count: 4
 - Solid Top/Bottom Layers: 5
+- Seams:  Scattered seam pattern recommended for cyclindrical and press fit parts to aid in maintaining concentricity
 
 ## **Part Specific:**
 - Orientation suggestions are relative to the installed assembly orientation.
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="125" height="200">
 
 | **Qty per Site** | **Part**                           | **Orientation**            | **Printed Supports Needed**             | **Comments** |
-|---------|-----------------------------------------------------------------|----------------------------|-----------------------------------------|
-| 1       | Right Support                                                            | Horizontal                   | N                                       |
-| 1       | Left Support                                                            | Horizontal                   | N                                       |
-| 1       | Rear Roller Axle  | Vertical | N | 5mm brim recommended |
-| 1       | Axle Spacer                                                     | Vertical                   | N                                       |
-| 1       | Bottom Block                                                    | Upside down                | Y - under mounting overhangs            |
-| 1       | Filament Slots(3/4) Lower                                       | Vertical                   | Y - under slot dividers at base         |
-| 1       | Top Mount                                                       | Vertical                   | Y - under slot dividers at base         |
-| 1       | Wheel                                                           | Horizontal                 | N                                       |
-|         | -Slower printing 4-slot Spoke and Sexy Turbine options included |                            |                                         |
-| 1       | Wheel Block                                                     | Upside Down                | N                                       |
+|---------|-----------------------------------------------------------------|----------------------------|--------|---------------------------------|
+| 1       | Right Support                                                            | Horizontal                   | N     |                                  |
+| 1       | Left Support                                                            | Horizontal                   | N     |                                  |
+| 1       | Rear Roller Axle  | Vertical | N | 5mm brim recommended, Scattered Seam Pattern |
+| 1       | Rim Roller                                                    | Horizontal                | N       | Dished side up, scattered seams     |
+| 1       | Hub-Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams |
+| 1       | Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams  |
+| 1       | Center Drive Roller                                                           | Horizontal                 | N        | Scattered seams                               |
+|         | Tensioner Arm |  Horizontal                          | Y **Supports everywhere**                                        | see pic bellow for supports **Pending Grafton's 2-piece no-support version** |
+| 1       | Tensioner Mnt                             | Vertical (as installed)                | Y for ECAS hole                  |  see pic for supports **Need built-in supports** |
+| 1       | Rear Roller   |  Vertical  | N  |  Scattered seams |
 
-Wheel.stl, Axle.stl, Axle Spacer.stl
+Tensioner Arm.stl supports:
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91b1a9aedfdb30b181a8d640edc9736503bd188f/Images/Wheel_Axle_Spacer%202024-01-07%20002049.jpg" width="500" height="200">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Arm%20Supports.jpg" width="150" height="150">
+
+Thensioner Mnt.stl supports:
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Mnt%20Supports.jpg" width="150" height="150">
 
 # Assembly Instructions:
+
+
 
 #
 ![image](https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist1.jpg)
