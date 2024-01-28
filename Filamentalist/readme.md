@@ -28,7 +28,6 @@ The filament driven interface interface uses an adjustable spring clamp that for
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
 |   1 | 3mm Heatset  |  | Voron standard size | |
 |   1   | M3 Nylock Nut |  | Can use standard M3 nut and threadlocker/Superglues as an alternative |
-|  misc | Various M3 BHCS and countersunk flathead screws to be detailed | | |
 |   1   | 3x45mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw |
 |   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation |
 |   2   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation |
@@ -43,6 +42,35 @@ The filament driven interface interface uses an adjustable spring clamp that for
 
 
 # Printing Guidelines:
+
+## **General:**
+- Material: ABS or ASA (~170 gm per site)
+- Print Time: ~8hr 17min (based on the Ellis PIF profile speeds, accelerations, and volumes)
+- 0.2mm layer height
+- 40% infill recommended.  Linear style infills are fastest (rectilinear, monotonic, grid, triangles, stars, etc.)
+- Wall Count: 4
+- Solid Top/Bottom Layers: 5
+
+## **Part Specific:**
+- Orientation suggestions are relative to the installed assembly orientation.
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="125" height="200">
+
+| **Qty per Site** | **Part**                           | **Orientation**            | **Printed Supports Needed**             | **Comments** |
+|---------|-----------------------------------------------------------------|----------------------------|-----------------------------------------|
+| 1       | Right Support                                                            | Horizontal                   | N                                       |
+| 1       | Left Support                                                            | Horizontal                   | N                                       |
+| 1       | Rear Roller Axle  | Vertical | N | 5mm brim recommended |
+| 1       | Axle Spacer                                                     | Vertical                   | N                                       |
+| 1       | Bottom Block                                                    | Upside down                | Y - under mounting overhangs            |
+| 1       | Filament Slots(3/4) Lower                                       | Vertical                   | Y - under slot dividers at base         |
+| 1       | Top Mount                                                       | Vertical                   | Y - under slot dividers at base         |
+| 1       | Wheel                                                           | Horizontal                 | N                                       |
+|         | -Slower printing 4-slot Spoke and Sexy Turbine options included |                            |                                         |
+| 1       | Wheel Block                                                     | Upside Down                | N                                       |
+
+Wheel.stl, Axle.stl, Axle Spacer.stl
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91b1a9aedfdb30b181a8d640edc9736503bd188f/Images/Wheel_Axle_Spacer%202024-01-07%20002049.jpg" width="500" height="200">
 
 # Assembly Instructions:
 
