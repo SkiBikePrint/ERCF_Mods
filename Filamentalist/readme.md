@@ -22,15 +22,16 @@ The filament driven interface interface uses an adjustable spring clamp that for
 |   1   | 8mm Stainless Steel Rod  |https://www.amazon.com/dp/B09P9MC953?ref=ppx_yo2ov_dt_b_product_details&th=1 | Length to your preference.  75mm is the minimum for standard spool widths.  |                    |
 |   4   | MR608S bearings |  |  |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS?psc=1&ref=ppx_yo2ov_dt_b_product_details | 8mm Bore, 12mm length, 14.2mm Diameter |
-|   2   | F683 flanged bearings  |  https://www.amazon.com/uxcell-F63800ZZ-10x19x7mm-Shielded-Bearings/dp/B0CP7N8V32/ref=sr_1_1_sspa?crid=2NINSDZD6AV58&keywords=f683%2Bbearing&qid=1706430383&sprefix=f683%2Bbearing%2Caps%2C163&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1 | F623 bearings will also work but recommend adding a tiny printed spacer between them |
+|   2   | F683 flanged bearings  |  https://www.amazon.com/gp/product/B0CGX9C167/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | F623 bearings will also work but recommend adding a tiny printed spacer between them |
 |   2   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | Locking clips are required and can be bought or printed|
-|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/ref=sr_1_4?crid=35R5YUC9C64AF&keywords=13%2F16+id+1-1%2F16+OD+o-ring&qid=1706195690&s=industrial&sprefix=13%2F16+id+1-1%2F16+od+o-ring%2Cindustrial%2C179&sr=1-4 | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD  |
+|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/ref=sr_1_5?crid=1LSZX361EMYL1&keywords=%23110+13%2F16+buna-n+o-ring&qid=1706477152&s=industrial&sprefix=+110+13%2F16+buna-n+o-ring%2Cindustrial%2C166&sr=1-5 | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD  |
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
 |   1 | 3mm Heatset  |  | Voron standard size | |
 |   1   | M3 Nylock Nut |  | Can use standard M3 nut and threadlocker/Superglues as an alternative |
 |  misc | Various M3 BHCS and countersunk flathead screws to be detailed | | |
 |   1   | 3x45mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw |
-|
+|   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation |
+|   2   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation |
 
 
 # Potential Failure Modes to Test/Vette:
