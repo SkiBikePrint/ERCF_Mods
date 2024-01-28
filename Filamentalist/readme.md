@@ -23,7 +23,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 |   4   | MR608S bearings |  |  |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS?psc=1&ref=ppx_yo2ov_dt_b_product_details | 8mm Bore, 12mm length, 14.2mm Diameter |
 |   2   | F683 flanged bearings  |  https://www.amazon.com/gp/product/B0CGX9C167/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | F623 bearings will also work but recommend adding a tiny printed spacer between them |
-|   2   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | Locking clips are required and can be bought or printed|
+|   2   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | Locking clips are required and can be bought or printed (stl included)|
 |   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/ref=sr_1_5?crid=1LSZX361EMYL1&keywords=%23110+13%2F16+buna-n+o-ring&qid=1706477152&s=industrial&sprefix=+110+13%2F16+buna-n+o-ring%2Cindustrial%2C166&sr=1-5 | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD  |
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
 |   1 | 3mm Heatset  |  | Voron standard size | |
@@ -69,12 +69,14 @@ The filament driven interface interface uses an adjustable spring clamp that for
 |         | Tensioner Arm |  Horizontal                          | Y **Supports everywhere**                                        | see pic bellow for supports **Pending Grafton's 2-piece no-support version** |
 | 1       | Tensioner Mnt                             | Vertical (as installed)                | Y for ECAS hole                  |  see pic for supports **Need built-in supports** |
 | 1       | Rear Roller   |  Vertical  | N  |  Scattered seams |
+| 1    | Axle Pressing Tool | Vertial | N | pocket opening up |
+| 2 | ECAS Locking Clip | Horizontal | N | Tab up |
 
 Tensioner Arm.stl supports:
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Arm%20Supports.jpg" width="150" height="150">
 
-Thensioner Mnt.stl supports:
+Tensioner Mnt.stl supports:
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Mnt%20Supports.jpg" width="150" height="150">
 
