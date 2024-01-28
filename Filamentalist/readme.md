@@ -3,21 +3,21 @@
 # A passive filament driven buffer project currently in Beta build/testing by an elite team of MMU buffering experts.
 
 <p align="center">
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist1.jpg" width="360" height="450">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="250" height="400">
 </p>
 
 # Theory of operation:
 The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to drive a spool roller system for filament loading and unloading.  A one-way clutch style bearing locks against a drive shaft and drives the filament spool to take up filament during an unload.  For loading and print extruding the clutch disengages and allows for free-spooling of the filament spool simliar to a roller style spool holder.
 
-The filament driven interface interface uses an adjustable spring clamp that forces the filament against two o-rings that sit on the drive pulley.  An ~3:1 gear ratio is required to provide enough spool rotation range to buffer and unload onto a nearly empty filament spool or a new/full filament spool.  Because of this range, a full spool is overdriven and some slip is required in the system.  Thanks to the one-way clutch bearing this slip occurs between the spool rim rollers and the center drive pulley.
+The filament driven interface interface uses an adjustable spring clamp that forces the filament against two o-rings that sit on the drive pulley.  An ~3:1 spool rotation ratio is required to provide enough spool rotation range to buffer and unload onto a nearly empty filament spool or a new/full filament spool.  Because of this range, a full spool is overdriven and some slip is required in the system.  Thanks to the one-way clutch bearing this slip occurs between the spool rim rollers and the center drive pulley.  Depending on the weight of the spool the system may experience slippage at the rim on the front rollers.  This is an acceptable, low drag behavior.
 
 <p align="center">
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/0827547a1ecf7d65448dc06b752a223c8867931b/Filamentalist/Images/Filamentalist6.jpg" width="360" height="400">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/d4a97d975891752a95d3143c7ecd344cd291694b/Filamentalist/Images/Filamentalist6.jpg" width="300" height="400">
 </p>
 
 ## **BOM:**
 
-| **Qty per Site** | **Part** | ** Source Reference ** | ** Comments** |
+| ** Qty per Site ** | ** Part ** | ** Source Reference ** | ** Comments ** |
 |---------|-----------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------|
 |   1   | 8mm Stainless Steel Rod  |https://www.amazon.com/dp/B09P9MC953?ref=ppx_yo2ov_dt_b_product_details&th=1 | Length to your preference.  75mm is the minimum for standard spool widths.  |                    |
 |   4   | MR608S bearings |  |  |
@@ -29,6 +29,16 @@ The filament driven interface interface uses an adjustable spring clamp that for
 |   1 | 3mm Heatset  |  | Voron standard size | |
 |   1   | M3 Nylock Nut |  | Can use standard M3 nut and threadlocker/Superglues as an alternative |
 |  misc | Various M3 BHCS and countersunk flathead screws to be detailed | | |
+|   1   | 3x45mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw |
+|
+
+
+# Potential Failure Modes to Test/Vette:
+
+1.  The o-ring wear rate is unacceptable.  The Chinese design used little, kinda thick silicone rings.  Those would wear through in ~70 cycles.  I am not seeing noticeable wear on the dual Buna-N o-rings at this point but at thousands of cycles we might see it.  Test CF filament.
+2.  The one-way bearing behavior seems indeterminate.  I had to add a little friction at the spool roller rim on my proto rig to keep it from locking at load even though the shaft is rotating faster than the bearing race on load.  This is where I replaced 608’s on the shaft with a printed bushing and that slight additional drag at the shaft solved it.  I will be able to test by tonight or tomorrow (80mm shaft delivery delayed to tonight) as to if having the rear roller running on 608’s provides enough system friction to be able to stay with the 608’s up front or if I stay with the bushings (my test rig was a vertical feed spool holder for the belt version so no second spool roller).
+3.  Slippage and grinding at the ERCF gear due to variation of top hat clamping force across the user base.
+4.  The sharp bend at the clamp and tension could cause brittle filament to break (Glenn hasn't experienced yet with 3-4 spools that are relatively fresh)
 
 
 # Printing Guidelines:
