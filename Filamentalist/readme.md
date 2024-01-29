@@ -82,34 +82,75 @@ Tensioner Mnt.stl supports:
 
 # Assembly Instructions:
 
-1. Tensioner Mount Assembly
+# 1. Tensioner Mount Assembly
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/15306ce88a8914127b4261a9ca0a5065250d8bc6/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="400">
 
-   1.1 Install 3mm heatset insert into Tensioner Mnt.
-   1.2 Screw 3x45mm SHCS all of the way into threaded heatset insert.
-   1.3 Install 3mm Nylock nut onto 3x45mm SHCS with ~4mm of the screw protruding beyond the nut.  You can use a standard nut with threadlocker or Superglue as an alternative to a Nylock nut.  It is important that the nut does not turn on the screw once it is installed.
-   1.4 Insert the two ECAS fittings into the Tensioner Mnt.  It should be a light press-in.
-   1.5 Insert a section of bowden tube now.  2.5mm ID is recommended.  The tube should protrude through the ECAS nearest the Drive Roller ~3-4mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
+   - 1.1 Install 3mm heatset insert into Tensioner Mnt.
+   - 1.2 Screw 3x45mm SHCS all of the way into threaded heatset insert
+   - 1.3 Install 3mm Nylock nut onto 3x45mm SHCS with ~4mm of the screw protruding beyond the nut.  You can use a standard nut with threadlocker or Superglue as an alternative to a Nylock nut.  It is important that the nut does not turn on the screw once it is installed.
+   - 1.4 Insert the two ECAS fittings into the Tensioner Mnt.  It should be a light press-in.
+   - 1.5 Insert a section of bowden tube now.  2.5mm ID is recommended.  The tube should protrude through the ECAS nearest the Drive Roller ~3-4mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
 
-2. Drive Roller Assembly
+
+# 2. Drive Roller Assembly
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/d615fa2dca00380d7070693baba3a1330b1d9656/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
 
-   2.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
-   2.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
-   2.3 Slide the Center Drive Roller (with One-way bearing already installed) onto axle shaft.  Oreientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
-   2.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
-   2.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone lubricant or parafin.
+- 2.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
+- 2.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
+- 2.3 Slide the Center Drive Roller (with One-way bearing already installed) onto axle shaft.  Oreientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
+- 2.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
+- 2.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone lubricant or parafin.
 
-3. Base Assembly
+# 3. Base Assembly
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
 
+   - 3.1 Press a total of (4) MR608 bearings into the Right Support, Left Support, and Rear Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Rear Roller.
 
-   3.1 Press a total of (4) MR608 bearings into the Right Support, Left Support, and Rear Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Rear Roller.
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/ab9b4967ab9052f7a707d3c00bb203262c5fd5c7/Filamentalist/Images/Base%20Assembly.jpg" width="400" height="350">
+
+   - 3.2 Screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws.
+   - 3.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket ofr the Support and secure with (1) 3x18 FHCS screw.
+   - 3.4 Slide the Rear Roller onto the Rear Roller Axle.
+   - 3.5 Insert the Drive Roller Assembly Axle into the MR608 bearing of this same Support Part.
+   - 3.6 Install the opposite side Support part to assembly with (3) 3x12 FHCS screws.
+
+# 4. Tensioner Arm Installation
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/961bef88cec5f960faba6ed866f236203cd86fbc/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
+
+   - 4.1 Install the two F683 bearings into Tensioner Arm using a 3x18 FHCS screw.  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure the are there and there is no blobs that could rub on the bearing body.  Do not overtighten the screw.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place sSharpie dots on the bearing faces to see if they move while turing the bearings.
+   - 4.2 Install the Tensioner Arm onto the Tensioner Mnt with a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.
+   - 4.3 With the 3x45mm SHCS spring tensioning screw screwed out to make space in the spring pocket of the mount, compress and force the spring into the opposing mount and arm spring pockets.  A small flat bladed screwdriver might help with this.
 
 
+# Tuning
+
+The only tuning the system requires is Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs buffer drag and set a slip range in-between the two "imaginary" lines.  Err on the light side.  Run the buffer and observe if any slippage is occuring at the o-rings.  I there is no gradually reduce the spring tension until there is slippage and then increase tension in ~1/4 screw turn increments until you feel you have the lightest slip-free tension.
+
+Below is a macro you can cut and paste into the bottom of your ercf_software.cfg to test and tune the buffer.
+
+Happy multi-material printing and buffering!
+
+[gcode_macro rewinder_test]
+gcode:
+    ERCF_TEST_LOAD LENGTH=50
+    {% for n in range(20) %}
+# cycles currently set at 20, i.e. range(20).  You can changes this however you chose.
+        ERCF_SERVO_DOWN
+        MANUAL_STEPPER STEPPER="gear_stepper" SPEED=300 ACCEL=400 MOVE=800
+# change the SPEED and ACCEL as you see fit
+         ERCF_SERVO_UP
+        P4 500 # dwell for a bit
+# to stop a macro mid-cycle you must use the e-stop.  This dwell allows you to hit the e-stop while the servo is up so that you can pull the filament out of the ERCF while the printer/macro is stopped
+        ERCF_SERVO_DOWN
+        MANUAL_STEPPER STEPPER="gear_stepper" SPEED=300 ACCEL=400 MOVE=-800
+
+         ERCF_SERVO_UP
+        P4 500 # dwell for a bit
+    {% endfor %}
 
 #
 ![image](https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist1.jpg)
