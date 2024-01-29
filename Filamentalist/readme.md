@@ -63,7 +63,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 |---------|-----------------------------------------------------------------|----------------------------|--------|---------------------------------|
 | 1       | Right Support                                                            | Horizontal                   | N     |                                  |
 | 1       | Left Support                                                            | Horizontal                   | N     |                                  |
-| 1       | Rear Roller Axle  | Vertical | N | 5mm brim recommended, Scattered Seam Pattern |
+| 1       | Rear Roller Axle  | Horizontal | N | align flat of "D" to build plate |
 | 1       | Rim Roller                                                    | Horizontal                | N       | Dished side up, scattered seams     |
 | 1       | Hub-Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams |
 | 1       | Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams  |
