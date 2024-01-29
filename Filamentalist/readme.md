@@ -66,8 +66,8 @@ The filament driven interface interface uses an adjustable spring clamp that for
 | 1       | Left Support                                                            | Horizontal                   | N     |                                  |
 | 1       | Rear Roller Axle  | Horizontal | N | align flat of "D" to build plate |
 | 1       | Rim Roller                                                    | Horizontal                | N       | Dished side up, scattered seams     |
-| 1       | Hub-Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams |
-| 1       | Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams  |
+| 1       | Hub-Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams with linear seam painted across threads |
+| 1       | Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams on roller surface, linear seam painted on threads  |
 | 1       | Center Drive Roller                                                           | Horizontal                 | N        | Scattered seams                               |
 | 2       | Center Drive Roller Spacer      | Horizontal                 | N        | Scattered seams                               |
 |         | Tensioner Arm |  Horizontal                          |        |  |
@@ -84,10 +84,10 @@ The filament driven interface interface uses an adjustable spring clamp that for
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/50ceb6508351c408d34400de1109c5d3190dfc9a/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
-   - 1.2 Screw 3x45mm SHCS all of the way into threaded heatset insert
-   - 1.3 Install 3mm Nylock nut onto 3x45mm SHCS with ~4mm of the screw protruding beyond the nut.  You can use a standard nut with threadlocker or Superglue as an alternative to a Nylock nut.  It is important that the nut does not turn on the screw once it is installed.
+   - 1.2 Screw 3x45mm SHCS mostly into the threaded heatset insert with ~10mm protruding out the other end.
+   - 1.3 Install 3mm Nylock nut onto 3x45mm SHCS with ~3mm of the screw protruding beyond the nut.  You can use a standard nut with threadlocker or Superglue as an alternative to a Nylock nut.  It is important that the nut does not turn on the screw once it is installed.
    - 1.4 Remove the lower rubber seal portion from two ECAS fittings and then install the fittings into the Tensioner Mnt.  It should be a light press-in.
-   - 1.5 Insert a section of bowden tube now.  2.5mm ID is recommended.  The tube should protrude through the ECAS nearest the Drive Roller ~3-4mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
+   - 1.5 Insert a section of bowden tube now.  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  The tube should protrude through the ECAS nearest the Drive Roller ~3mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
 
 
 # 2. Drive Roller Assembly
@@ -98,7 +98,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 - 2.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
 - 2.3 Slide (1) Center Drive Roller spacer followed by the Center Drive Roller (with One-way bearing already installed) followed by the second Center Drive Roller spacer onto the axle shaft.  Orientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
 - 2.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool with dished side facing down as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
-- 2.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone lubricant or parafin.
+- 2.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone spray lubricant or parafin.
 
 # 3. Base Assembly
 
@@ -109,18 +109,22 @@ The filament driven interface interface uses an adjustable spring clamp that for
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/ab9b4967ab9052f7a707d3c00bb203262c5fd5c7/Filamentalist/Images/Base%20Assembly.jpg" width="400" height="350">
 
    - 3.2 Screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws.
-   - 3.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket ofr the Support and secure with (1) 3x18 FHCS screw.
+   - 3.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket of the Support.  Ensure it presses all of the way in (you may need to tap it in a bit).  Secure with (1) 3x18 FHCS screw.  
    - 3.4 Slide the Rear Roller onto the Rear Roller Axle.
-   - 3.5 Insert the Drive Roller Assembly Axle into the MR608 bearing of this same Support Part.
-   - 3.6 Install the opposite side Support part to assembly with (3) 3x12 FHCS screws.
+   - 3.5 Insert the Drive Roller Assembly Axle into the MR608 bearing of this same Support Part.  
+#              !! THIS IS WHERE AXLE ORIENTATION MATTERS !! 
+   - Orient the Drive roller assembly so that the one-way bearing locks in the filament unload/eject direction.  This can be verified by holding one of the outer drive rollers and rotating the center drive roller.  It should lock when cTHE enter roller is rotated outward (i.e. driving filament away from the ERCF).
+- 3.6 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws.
 
 # 4. Tensioner Arm Installation
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6019a74fc174e12579b554721153bfe4ddc14726/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
 
-   - 4.1 Install the two F683 bearings into Tensioner Arm using a 3x18 FHCS screw.  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure the are there and there is no blobs that could rub on the bearing body.  Do not overtighten the screw.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place sSharpie dots on the bearing faces to see if they move while turing the bearings.
-   - 4.2 Install the Tensioner Arm onto the Tensioner Mnt with a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.
-   - 4.3 With the 3x45mm SHCS spring tensioning screw screwed out to make space in the spring pocket of the mount, compress and force the spring into the opposing mount and arm spring pockets.  A small flat bladed screwdriver might help with this.
+   - 4.1 This is a "fiddly" part.  Put on your magnifiers and take a deep breath!  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure they are there and there is no blobs that could rub on the bearing body.  Carefully clean up surfaces with an X-actio knife if necessary.  Install the two F683 bearings into Tensioner Arm  with the flanges facing outwards and secure with a 3x18 FHCS screw.  Installation tip: Start by partially installing the screw so there is a "post for the first bearing to rest on and then slide in the second bearing.  Moderatly tighten the screw and then back off ~1/4 turn.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place Sharpie dots on the bearing faces to see if they move while turn
+   - ing the bearings.
+   - 4.2 Screw 3x45mm spring tensioning screw back into the body of the Tensioner Mnt to get it out of the way.
+   - 4.3 Feed the bowden tube through the large bottom opening/slot in the arm and install the Tensioner Arm onto the Tensioner Mnt with the bearings facing towards the o-rings using a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.
+   - 4.4 Compress and force the spring into the opposing mount and arm spring pockets.  A small flat bladed screwdriver might help with this.  Screw the 3x45mm spring tensioning screw back out until there is a slight spring force between the o-rings and bearings.
 
 
 # Tuning
