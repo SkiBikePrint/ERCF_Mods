@@ -80,7 +80,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 
 # 1. Tensioner Mount Assembly
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/15306ce88a8914127b4261a9ca0a5065250d8bc6/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="400">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/50ceb6508351c408d34400de1109c5d3190dfc9a/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="400">
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
    - 1.2 Screw 3x45mm SHCS all of the way into threaded heatset insert
