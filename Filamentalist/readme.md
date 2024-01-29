@@ -78,9 +78,28 @@ Tensioner Arm.stl supports:
 
 Tensioner Mnt.stl supports:
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Mnt%20Supports.jpg" width="150" height="150">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Mnt%20Supports.jpg" width="225" height="225">
 
 # Assembly Instructions:
+
+1. Tensioner Mount Assembly
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/15306ce88a8914127b4261a9ca0a5065250d8bc6/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="400">
+
+   1.1 Install 3mm heatset insert into Tensioner Mnt.
+   1.2 Screw 3x45mm SHCS all of the way into threaded heatset insert.
+   1.3 Install 3mm Nylock nut onto 3x45mm SHCS with ~4mm of the screw protruding beyond the nut.  You can use a standard nut with threadlocker or Superglue as an alternative to a Nylock nut.  It is important that the nut does not turn on the screw once it is installed.
+   1.4 Insert the two ECAS fittings into the Tensioner Mnt.  It should be a light press-in.
+   1.5 Insert a section of bowden tube now.  2.5mm ID is recommended.  The tube should protrude through the ECAS nearest the Drive Roller ~3-4mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
+
+2.  Drive Roller Assembly
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">         <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/d615fa2dca00380d7070693baba3a1330b1d9656/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
+
+   1.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
+   1.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
+   1.3 Slide the Center Drive Roller (with One-way bearing already installed) onto axle shaft.  Oreientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
+   1.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
 
 
 
