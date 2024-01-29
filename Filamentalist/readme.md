@@ -89,42 +89,44 @@ The filament driven interface interface uses an adjustable spring clamp that for
    - 1.4 Remove the lower rubber seal portion from two ECAS fittings and then install the fittings into the Tensioner Mnt.  It should be a light press-in.
    - 1.5 Insert a section of bowden tube now.  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  The tube should protrude through the ECAS nearest the Drive Roller ~3mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
 
-
-# 2. Drive Roller Assembly
-
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f54f216b3775447bf40aa44d1984c6e510ab18f7/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
-
-- 2.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
-- 2.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
-- 2.3 Slide (1) Center Drive Roller spacer followed by the Center Drive Roller (with One-way bearing already installed) followed by the second Center Drive Roller spacer onto the axle shaft.  Orientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
-- 2.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool with dished side facing down as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
-- 2.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone spray lubricant or parafin.
-
-# 3. Base Assembly
-
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
-
-   - 3.1 Press a total of (4) MR608 bearings into the Right Support, Left Support, and Rear Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Rear Roller.
-
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/ab9b4967ab9052f7a707d3c00bb203262c5fd5c7/Filamentalist/Images/Base%20Assembly.jpg" width="400" height="350">
-
-   - 3.2 Screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws.
-   - 3.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket of the Support.  Ensure it presses all of the way in (you may need to tap it in a bit).  Secure with (1) 3x18 FHCS screw.  
-   - 3.4 Slide the Rear Roller onto the Rear Roller Axle.
-   - 3.5 Insert the Drive Roller Assembly Axle into the MR608 bearing of this same Support Part.  
-#              !! THIS IS WHERE AXLE ORIENTATION MATTERS !! 
-   - Orient the Drive roller assembly so that the one-way bearing locks in the filament unload/eject direction.  This can be verified by holding one of the outer drive rollers and rotating the center drive roller.  It should lock when cTHE enter roller is rotated outward (i.e. driving filament away from the ERCF).
-- 3.6 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws.
-
-# 4. Tensioner Arm Installation
+# 2. Tensioner Arm Installation
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6019a74fc174e12579b554721153bfe4ddc14726/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
 
-   - 4.1 This is a "fiddly" part.  Put on your magnifiers and take a deep breath!  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure they are there and there is no blobs that could rub on the bearing body.  Carefully clean up surfaces with an X-actio knife if necessary.  Install the two F683 bearings into Tensioner Arm  with the flanges facing outwards and secure with a 3x18 FHCS screw.  Installation tip: Start by partially installing the screw so there is a "post for the first bearing to rest on and then slide in the second bearing.  Moderatly tighten the screw and then back off ~1/4 turn.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place Sharpie dots on the bearing faces to see if they move while turn
+   - 2.1 This is a "fiddly" part.  Put on your magnifiers and take a deep breath!  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure they are present  and there is no blobs that could rub on the bearing body.  Carefully clean up surfaces with an X-actio knife if necessary.  Install the two F683 bearings into Tensioner Arm  with the flanges facing outwards and secure with a 3x18 FHCS screw.  Installation tip: Start by partially installing the screw so there is a "post for the first bearing to rest on and then slide in the second bearing.  Moderatly tighten the screw and then back off ~1/4 turn.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place Sharpie dots on the bearing faces to see if they move while turn
    - ing the bearings.
-   - 4.2 Screw 3x45mm spring tensioning screw back into the body of the Tensioner Mnt to get it out of the way.
-   - 4.3 Feed the bowden tube through the large bottom opening/slot in the arm and install the Tensioner Arm onto the Tensioner Mnt with the bearings facing towards the o-rings using a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.
-   - 4.4 Compress and force the spring into the opposing mount and arm spring pockets.  A small flat bladed screwdriver might help with this.  Screw the 3x45mm spring tensioning screw back out until there is a slight spring force between the o-rings and bearings.
+   - 2.2 Screw 3x45mm spring tensioning screw back into the body of the Tensioner Mnt to get it out of the way.
+   - 2.3 Feed the bowden tube through the large bottom opening/slot in the arm and install the Tensioner Arm onto the Tensioner Mnt with the bearings facing towards the o-rings using a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.
+   - 2.4 Compress and force the spring into the opposing mount and arm spring pockets.  A small hex drive used down the center of the spring as a guide combined with a small flat bladed screwdriver to compress the screw into the pockets might help with this.  Screw the 3x45mm spring tensioning screw back out until there is a slight spring force between the o-rings and bearings.
+
+
+# 3. Drive Roller Assembly
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f54f216b3775447bf40aa44d1984c6e510ab18f7/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
+
+- 3.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
+- 3.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
+- 3.3 Slide (1) Center Drive Roller spacer followed by the Center Drive Roller (with One-way bearing already installed) followed by the second Center Drive Roller spacer onto the axle shaft.  Orientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
+- 3.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool with dished side facing down as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
+- 3.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone spray lubricant or parafin.
+
+# 4. Base Assembly
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
+
+   - 4.1 Press a total of (4) MR608 bearings into the Right Support, Left Support, and Rear Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Rear Roller.
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/ab9b4967ab9052f7a707d3c00bb203262c5fd5c7/Filamentalist/Images/Base%20Assembly.jpg" width="400" height="350">
+
+   - 4.2 Screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws.
+   - 4.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket of the Support.  Ensure it presses all of the way in (you may need to tap it in a bit).  Secure with (1) 3x18 FHCS screw.  
+   - 4.4 Slide the Rear Roller onto the Rear Roller Axle.
+   - 4.5 Insert the Drive Roller Assembly Axle into the MR608 bearing of this same Support Part.  
+#              !! THIS IS WHERE AXLE ORIENTATION MATTERS !! 
+   - Orient the Drive roller assembly so that the one-way bearing locks in the filament unload/eject direction.  This can be verified by holding one of the outer drive rollers and rotating the center drive roller.  It should lock when the center roller is rotated outward (i.e. driving filament away from the ERCF).
+- 3.6 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws.  Make sure there is no spring tension on the Tensioner arm for this step.
+
+
 
 
 # Tuning
