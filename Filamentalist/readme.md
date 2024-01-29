@@ -68,19 +68,13 @@ The filament driven interface interface uses an adjustable spring clamp that for
 | 1       | Hub-Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams |
 | 1       | Rim Roller-Threaded                                       | Horizontal                   | N         |  Threaded end pointing up, scattered seams  |
 | 1       | Center Drive Roller                                                           | Horizontal                 | N        | Scattered seams                               |
-|         | Tensioner Arm |  Horizontal                          | Y **Supports everywhere**                                        | see pic bellow for supports **Pending Grafton's 2-piece no-support version** |
-| 1       | Tensioner Mnt                             | Vertical (as installed)                | Y for ECAS hole                  |  see pic for supports **Need built-in supports** |
+| 2       | Center Drive Roller Spacer      | Horizontal                 | N        | Scattered seams                               |
+|         | Tensioner Arm |  Horizontal                          |        |  |
+| 1       | Tensioner Mnt                             | Vertical (as installed)                |   |   |
 | 1       | Rear Roller   |  Vertical  | N  |  Scattered seams |
 | 1    | Axle Pressing Tool | Vertial | N | pocket opening up |
 | 2 | ECAS Locking Clip | Horizontal | N | Tab up |
 
-Tensioner Arm.stl supports:
-
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Arm%20Supports.jpg" width="150" height="150">
-
-Tensioner Mnt.stl supports:
-
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b6f7d0f2c5870e15f50cc03dbd517c558120d39/Filamentalist/Images/Tensioner%20Mnt%20Supports.jpg" width="225" height="225">
 
 # Assembly Instructions:
 
