@@ -101,8 +101,8 @@ Tensioner Mnt.stl supports:
 
 - 2.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
 - 2.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
-- 2.3 Slide the Center Drive Roller (with One-way bearing already installed) onto axle shaft.  Oreientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
-- 2.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
+- 2.3 Slide (1) Center Drive Roller spacer followed by the Center Drive Roller (with One-way bearing already installed) followed by the second Center Drive Roller spacer onto the axle shaft.  Orientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
+- 2.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool with dished side facing down as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
 - 2.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone lubricant or parafin.
 
 # 3. Base Assembly
