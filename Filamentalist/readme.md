@@ -35,7 +35,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 |   2   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation |
 
 
-# Potential Failure Modes to Test/Vette:
+# Beta Test Potential Failure Modes to Test/Vette:
 
 1.  The o-ring wear rate is unacceptable.  The Chinese design used little, kinda thick silicone rings.  Those would wear through in ~70 cycles.  I am not seeing noticeable wear on the dual Buna-N o-rings at this point but at thousands of cycles we might see it.  Test CF filament.
 2.  The one-way bearing behavior seems indeterminate.  I had to add a little friction at the spool roller rim on my proto rig to keep it from locking at load even though the shaft is rotating faster than the bearing race on load.  This is where I replaced 608’s on the shaft with a printed bushing and that slight additional drag at the shaft solved it.  I will be able to test by tonight or tomorrow (80mm shaft delivery delayed to tonight) as to if having the rear roller running on 608’s provides enough system friction to be able to stay with the 608’s up front or if I stay with the bushings (my test rig was a vertical feed spool holder for the belt version so no second spool roller).
