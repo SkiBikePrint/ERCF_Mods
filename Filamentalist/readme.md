@@ -20,7 +20,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 | ** Qty per Site ** | ** Part ** | ** Source Reference ** | ** Comments ** |
 |---------|-----------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------|
 |   1   | 8mm Stainless Steel Rod  |https://www.amazon.com/dp/B09P9MC953?ref=ppx_yo2ov_dt_b_product_details&th=1 | Length to your preference.  75mm is the minimum for standard spool widths.  |                    |
-|   4   | MR608S bearings |  |  |
+|   4   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.  |  |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS?psc=1&ref=ppx_yo2ov_dt_b_product_details | 8mm Bore, 12mm length, 14.2mm Diameter |
 |   2   | F683 flanged bearings  |  https://www.amazon.com/gp/product/B0CGX9C167/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | F623 bearings will also work but recommend adding a tiny printed spacer between them |
 |   2   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | Locking clips are required and can be bought or printed (stl included)|
@@ -92,14 +92,22 @@ Tensioner Mnt.stl supports:
    1.4 Insert the two ECAS fittings into the Tensioner Mnt.  It should be a light press-in.
    1.5 Insert a section of bowden tube now.  2.5mm ID is recommended.  The tube should protrude through the ECAS nearest the Drive Roller ~3-4mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
 
-2.  Drive Roller Assembly
+2. Drive Roller Assembly
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">         <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/d615fa2dca00380d7070693baba3a1330b1d9656/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/d615fa2dca00380d7070693baba3a1330b1d9656/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
 
-   1.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
-   1.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
-   1.3 Slide the Center Drive Roller (with One-way bearing already installed) onto axle shaft.  Oreientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
-   1.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
+   2.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
+   2.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
+   2.3 Slide the Center Drive Roller (with One-way bearing already installed) onto axle shaft.  Oreientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
+   2.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
+   2.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone lubricant or parafin.
+
+3. Base Assembly
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
+
+
+   3.1 Press a total of (4) MR608 bearings into the Right Support, Left Support, and Rear Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Rear Roller.
 
 
 
