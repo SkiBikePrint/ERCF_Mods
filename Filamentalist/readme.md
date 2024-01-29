@@ -128,11 +128,15 @@ Tensioner Mnt.stl supports:
 
 # Tuning
 
-The only tuning the system requires is Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs buffer drag and set a slip range in-between the two "imaginary" lines.  Err on the light side.  Run the buffer and observe if any slippage is occuring at the o-rings.  I there is no gradually reduce the spring tension until there is slippage and then increase tension in ~1/4 screw turn increments until you feel you have the lightest slip-free tension.
+The only tuning the system requires is Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs buffer drag and set a slip range in-between the two "imaginary" lines.  Err on the light side.  Run the buffer and observe if any slippage is occuring at the o-rings.  I there is none, gradually reduce the spring tension until there is slippage and then increase tension in ~1/4 screw turn increments until you feel you have the lightest slip-free tension.
+
+
+# Testing
 
 Below is a macro you can cut and paste into the bottom of your ercf_software.cfg to test and tune the buffer.
 
 Happy multi-material printing and buffering!
+
 
 [gcode_macro rewinder_test]
 gcode:
