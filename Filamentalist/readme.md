@@ -115,7 +115,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 
 # 4. Tensioner Arm Installation
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/961bef88cec5f960faba6ed866f236203cd86fbc/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6019a74fc174e12579b554721153bfe4ddc14726/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
 
    - 4.1 Install the two F683 bearings into Tensioner Arm using a 3x18 FHCS screw.  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure the are there and there is no blobs that could rub on the bearing body.  Do not overtighten the screw.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place sSharpie dots on the bearing faces to see if they move while turing the bearings.
    - 4.2 Install the Tensioner Arm onto the Tensioner Mnt with a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.
