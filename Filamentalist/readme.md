@@ -93,12 +93,10 @@ The filament driven interface interface uses an adjustable spring clamp that for
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6019a74fc174e12579b554721153bfe4ddc14726/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
 
-   - 2.1 This is a "fiddly" part.  Put on your magnifiers and take a deep breath!  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure they are present  and there is no blobs that could rub on the bearing body.  Carefully clean up surfaces with an X-actio knife if necessary.  Install the two F683 bearings into Tensioner Arm  with the flanges facing outwards and secure with a 3x18 FHCS screw.  Installation tip: Start by partially installing the screw so there is a "post for the first bearing to rest on and then slide in the second bearing.  Moderatly tighten the screw and then back off ~1/4 turn.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place Sharpie dots on the bearing faces to see if they move while turn
-   - ing the bearings.
+   - 2.1 This is a "fiddly" part.  Put on your magnifiers and take a deep breath!  There are tiny standoffs printed into the gap of the arm where the bearings install.  Inspect these, make sure they are present  and there is no blobs that could rub on the bearing body.  Carefully clean up surfaces with an X-actio knife if necessary.  Place a 3x18 FHCS through the bearing mount hole of the Tensioner Arm Right part and slide the two F683 bearins onto it with the flanges facing outward (this should be a clearance hole).  Place the Tensioner Arm Left part into postion making sure the square indexing peg seats correctly at the bottom of the arm.  Moderatly tighten the screw into the Tensioner Arm right piece and then back off ~1/4 turn.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place Sharpie dots on the bearing faces to see if they move while turning the bearings.
    - 2.2 Screw 3x45mm spring tensioning screw back into the body of the Tensioner Mnt to get it out of the way.
-   - 2.3 Feed the bowden tube through the large bottom opening/slot in the arm and install the Tensioner Arm onto the Tensioner Mnt with the bearings facing towards the o-rings using a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.
-   - 2.4 Compress and force the spring into the opposing mount and arm spring pockets.  A small hex drive used down the center of the spring as a guide combined with a small flat bladed screwdriver to compress the screw into the pockets might help with this.  Screw the 3x45mm spring tensioning screw back out until there is a slight spring force between the o-rings and bearings.
-
+   - 2.3 Feed the bowden tube through the large bottom opening/slot in the arm, place the spring into the spring pockets of both the mount and the arm, and install the Tensioner Arm onto the Tensioner Mnt with the bearings facing towards the o-rings using a 3x18mm FHCS screw.  Again, don't overtighten this screw.  The arm should rotate freely on the mount.  
+   - 2.4 Tape the bottom of the arm to the mount to prevent the spring from falling out while completing the rest of the build.  No tension should be on the spring at this point.
 
 # 3. Drive Roller Assembly
 
@@ -125,8 +123,6 @@ The filament driven interface interface uses an adjustable spring clamp that for
 #              !! THIS IS WHERE AXLE ORIENTATION MATTERS !! 
    - Orient the Drive roller assembly so that the one-way bearing locks in the filament unload/eject direction.  This can be verified by holding one of the outer drive rollers and rotating the center drive roller.  It should lock when the center roller is rotated outward (i.e. driving filament away from the ERCF).
 - 3.6 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws.  Make sure there is no spring tension on the Tensioner arm for this step.
-
-
 
 
 # Tuning
