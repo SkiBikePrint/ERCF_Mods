@@ -1,8 +1,9 @@
+<h1 align="center">The "Filamentalist"</h1>
+
+
 #  In Beta Testing
 
-# The "Filamentalist" 
-
-# A passive filament driven buffer project currently in Beta build/testing by an elite team of MMU buffering experts.
+# An "analog" passive filament driven buffer project currently in Beta build/testing by an elite team of MMU buffering experts.
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="250" height="400">
