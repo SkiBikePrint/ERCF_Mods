@@ -58,11 +58,13 @@ The system uses an adjustable spring clamp that forces the filament against two 
 - Seams:  Scattered seam pattern recommended for cyclindrical and press fit parts to aid in maintaining concentricity
 
 ## **Part Specific:**
-- Orientation suggestions are relative to the installed assembly orientation.
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="125" height="200">
+- Orientation suggestions are relative to the installed assembly orientation and are shown in the slicer images below.
+  
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="125" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Black).jpg" width="250" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Orange).jpg" width="250" height="200">
 
-| **Qty per Site** | **Part**  | **Pic** |  **Orientation**            | **Printed Supports Needed**             | **Comments** |
-|------|-----------------------------------------|------------|---|-----|---------------------------------|
+
+| **Qty per Site** | **Part**  | **Pic** |  **Orientation**            | **Printed Supports Needed** | **Comments** |
+|------|-----------------------------------------|------------|--------------------|-----|---------------------------------|
 | 1       | Right Support | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Right%20Support.jpg" width="40" height="40"> |  Horizontal                   | N     |                                  |
 | 1       | Left Support | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Left%20Support.jpg" width="40" height="40">                                                            | Horizontal                   | N     |                                  |
 | 1       | Rear Roller Axle  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rear%20Roller%20Axle.jpg" width="40" height="40"> | Horizontal | N | align flat of "D" to build plate |
