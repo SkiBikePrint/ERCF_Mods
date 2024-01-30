@@ -12,7 +12,7 @@
 # Theory of operation:
 The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to drive a spool roller system for filament loading and unloading.  A one-way clutch style bearing locks against a drive shaft and drives the filament spool to take up filament during an unload.  For loading and print extruding the clutch disengages and allows for free-spooling of the filament spool simliar to a roller style spool holder.
 
-The filament driven interface interface uses an adjustable spring clamp that forces the filament against two o-rings that sit on the drive pulley.  An ~3:1 spool rotation ratio is required to provide enough spool rotation range to buffer and unload onto a nearly empty filament spool or a new/full filament spool.  Because of this range, a full spool is overdriven and some slip is required in the system.  Thanks to the one-way clutch bearing this slip occurs between the spool rim rollers and the center drive pulley.  Depending on the weight of the spool the system may experience slippage at the rim on the front rollers.  This is an acceptable, low drag behavior.
+The system uses an adjustable spring clamp that forces the filament against two rotating o-rings that sit on the drive pulley to create a high traction interface.  An ~3:1 spool rotation ratio is required to provide enough spool rotation range to buffer and unload onto a nearly empty filament spool or a new/full filament spool.  Because of this range, a full spool is overdriven and some slip is required in the system.  Thanks to the one-way clutch bearing this slip occurs between the spool rim rollers and the center drive pulley.  Depending on the weight of the spool the system may experience slippage at the rim on the front rollers.  This is an acceptable, low drag behavior.
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/d4a97d975891752a95d3143c7ecd344cd291694b/Filamentalist/Images/Filamentalist6.jpg" width="300" height="400">
@@ -43,6 +43,7 @@ The filament driven interface interface uses an adjustable spring clamp that for
 3.  Slippage and grinding at the ERCF gear due to variation of top hat clamping force across the user base.
 4.  The sharp bend at the clamp and tension could cause brittle filament to break (Glenn hasn't experienced yet with 3-4 spools that are relatively fresh)
 5.  If we are on the edge of gear motor stall.  We are close to the stall threshold so the risk is that there is enough variation in the user community's ERCF builds, motors, and buffer builds that stall arises as an issue.  I definitely have occasionally experienced stall if something caused a small increase in resistance.  I may need to go NEMA17 to provide the headroom but will test on NEMA14 first.
+6.  TPU may not be stiff enough to transmit power to the Drive Roller and/or kink/bunch in the bowden path and create a high friction situation that inhibits the ability to unload filament.
 
 
 # Printing Guidelines:
@@ -77,6 +78,10 @@ The filament driven interface interface uses an adjustable spring clamp that for
 | 2 | ECAS Locking Clip | Horizontal | N | Tab up |
 
 
+There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and require no hardware to mount.  You print all of the same parts expect for the 2 Base Supports that use the clip mount version.  Assmebly is the same.
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f96422acb504d4f098fd575ae8534f495f92b699/Filamentalist/Images/Clip%20Mount%20Version.jpg" width="400" height="250">
+
 # Assembly Instructions:
 
 # 1. Tensioner Mount Assembly
@@ -109,6 +114,8 @@ The filament driven interface interface uses an adjustable spring clamp that for
 - 3.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone spray lubricant or parafin.
 
 # 4. Base Assembly
+
+There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and require no hardware to mount.  You print all of the same parts expect for the 2 Base Supports that use the clip mount version.  Assmebly is the same.
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
 
