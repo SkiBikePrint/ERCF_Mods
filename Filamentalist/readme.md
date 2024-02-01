@@ -29,8 +29,7 @@ The system uses an adjustable spring clamp that forces the filament against two 
 |   2   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | Locking clips are required and can be bought or printed (stl included)|
 |   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/ref=sr_1_5?crid=1LSZX361EMYL1&keywords=%23110+13%2F16+buna-n+o-ring&qid=1706477152&s=industrial&sprefix=+110+13%2F16+buna-n+o-ring%2Cindustrial%2C166&sr=1-5 | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD  |
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
-|   1 | 3mm Heatset  |  | Voron standard size | |
-|   1   | M3 Nylock Nut |  | Can use standard M3 nut or M3 Heatset and threadlocker/Superglues as an alternative |
+|   2 | 3mm Heatset  |  | Voron standard size | one as a spring stop on the 3x45mm SHCS tensioning screw and the other set into the Tensioner Mnt |
 |   1   | 3x45mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw |
 |   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation |
 |   2   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation |
@@ -93,7 +92,7 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
    - 1.2 Screw 3x45mm SHCS mostly into the threaded heatset insert with ~10mm protruding out the other end.
-   - 1.3 Install 3mm Nylock nut onto 3x45mm SHCS with ~3mm of the screw protruding beyond the nut.  You can use a standard nut with threadlocker or Superglue as an alternative to a Nylock nut.  It is important that the nut does not turn on the screw once it is installed.
+   - 1.3 Thread another 3mm heatset insert onto 3x45mm SHCS with ~3mm of the screw protruding beyond the nut.  Use Superglue or threadlocker (Loctite) to lock it in place.  It is important that the nut does not turn on the screw once it is installed.
    - 1.4 Remove the lower rubber seal portion from two ECAS fittings and then install the fittings into the Tensioner Mnt.  It should be a light press-in.
    - 1.5 Insert a section of bowden tube now.  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  The tube should protrude through the ECAS nearest the Drive Roller ~3mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
 
