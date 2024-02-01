@@ -93,8 +93,8 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
    - 1.2 Screw 3x45mm SHCS mostly into the threaded heatset insert with ~10mm protruding out the other end.
    - 1.3 Thread another 3mm heatset insert onto 3x45mm SHCS with ~3mm of the screw protruding beyond the nut.  Use Superglue or threadlocker (Loctite) to lock it in place.  It is important that the nut does not turn on the screw once it is installed.
-   - 1.4 Remove the lower rubber seal portion from two ECAS fittings and then install the fittings into the Tensioner Mnt.  It should be a light press-in.
-   - 1.5 Insert a section of bowden tube now.  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  The tube should protrude through the ECAS nearest the Drive Roller ~3mm.  Place locking clips in ECAS (if you don't have these an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
+   - 1.4 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using on of the 8mm shafts to get it to sit lush to the Tensioner Mnt mating surface.
+   - 1.5 Insert a section of bowden tube now.  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  Place locking clip in the ECAS (if you don't have these, an stl file is provided to print the locking clips).  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
 
 # 2. Tensioner Arm Installation
 
@@ -110,10 +110,9 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f54f216b3775447bf40aa44d1984c6e510ab18f7/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
 
 - 3.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
-- 3.2 Position the Hub-Rim Roller-Threaded part onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Hub-Rim Roller-Threaded part until the shaft bottoms-out on the Axle Pressing Tool.
+- 3.2 Insert the Rim Roller Splined Hub part into the Rim Roller Splined part until they are flush with each other.  You may need to place them on a hard surface and give it a little hit to pop in flush.  Place the roller onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Roller assembly until the shaft bottoms-out on the Axle Pressing Tool.
 - 3.3 Slide (1) Center Drive Roller spacer followed by the Center Drive Roller (with One-way bearing already installed) followed by the second Center Drive Roller spacer onto the axle shaft.  Orientation is still not important.  If for universal harmony reasons you want the threaded Rim Rollers of each buffer all located on the same side then pick an orientation for the one-way bearing and stay with that.
 - 3.4 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool with dished side facing down as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out on the Axle Pressing Tool.
-- 3.5 Screw the Rim Roller-Threaded part onto the Hub-Rim Roller-Threaded part until flush with the hub.  The threads should not be so sticky that they cause the pressed-on hub to rotate on the steel shaft while screwing the roller on.  If necessary, clean up any rough mating surfaces with an X-acto knife and/or add a lubricant to the threads such as a small amount of silicone spray lubricant or parafin.
 
 # 4. Base Assembly
 
@@ -121,7 +120,7 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
 
-   - 4.1 Press a total of (4) MR608 bearings into the Right Support, Left Support, and Rear Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Rear Roller.
+   - 4.1 Press a total of (4) MR608 bearings into the Right Support, Left Support, and Rear Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Rear Roller.  Ensure the inner races of the bearings in the Right/Left Support parts turn freely.
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/ab9b4967ab9052f7a707d3c00bb203262c5fd5c7/Filamentalist/Images/Base%20Assembly.jpg" width="400" height="350">
 
