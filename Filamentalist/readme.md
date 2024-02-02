@@ -149,7 +149,7 @@ Below is a macro you can cut and paste into the bottom of your ercf_software.cfg
 Happy multi-material printing and buffering!
 
 
-[gcode_macro rewinder_test]
+```[gcode_macro rewinder_test]
 gcode:
     ERCF_TEST_LOAD LENGTH=50
     {% for n in range(20) %}
@@ -167,11 +167,4 @@ gcode:
         P4 500 # dwell for a bit
     {% endfor %}
 
-#
-![image](https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist1.jpg)
-![image](https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist2.jpg)
-![image](https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist3.jpg)
-![image](https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist4.jpg)
-![image](https://github.com/SkiBikePrint/ERCF_Mods/blob/86302ecd9cdc81f8ce3870dd59cb7f5b5a7dbf87/Filamentalist/Images/Filamentalist5.jpg)
-
-
+```
