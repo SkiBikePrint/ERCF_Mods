@@ -25,7 +25,7 @@ The system uses an adjustable spring clamp that forces the filament against two 
 |   1   | 8mm Stainless Steel Rod  |https://www.amazon.com/dp/B09P9MC953?ref=ppx_yo2ov_dt_b_product_details&th=1 | Length to your preference.  75mm is the minimum for standard spool widths.  If you use something other than 80mm the Center Drive Roller Spacer widths require adjustment|                    |
 |   4   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  |  |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS?psc=1&ref=ppx_yo2ov_dt_b_product_details | 8mm Bore, 12mm length, 14.2mm Diameter |
-|   2   | F683 flanged bearings  |  https://www.amazon.com/gp/product/B0CGX9C167/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | F623 bearings will also work but recommend adding a tiny printed spacer between them |
+|   2   | F683 flanged bearings  |  https://www.amazon.com/gp/product/B0CGX9C167/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 |  |
 |   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | Locking clips are required and can be bought or printed (stl included)|
 |   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/ref=sr_1_5?crid=1LSZX361EMYL1&keywords=%23110+13%2F16+buna-n+o-ring&qid=1706477152&s=industrial&sprefix=+110+13%2F16+buna-n+o-ring%2Cindustrial%2C166&sr=1-5 | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD  |
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
@@ -38,12 +38,11 @@ The system uses an adjustable spring clamp that forces the filament against two 
 
 # Beta Test Potential Failure Modes to Test/Vette:
 
-1.  The o-ring wear rate is unacceptable.  The Chinese design used little, kinda thick silicone rings.  Those would wear through in ~70 cycles.  I am not seeing noticeable wear on the dual Buna-N o-rings at this point but at thousands of cycles we might see it.  Test CF filament.
-2.  The one-way bearing behavior seems indeterminate.  I had to add a little friction at the spool roller rim on my proto rig to keep it from locking at load even though the shaft is rotating faster than the bearing race on load.  This is where I replaced 608’s on the shaft with a printed bushing and that slight additional drag at the shaft solved it.  I will be able to test by tonight or tomorrow (80mm shaft delivery delayed to tonight) as to if having the rear roller running on 608’s provides enough system friction to be able to stay with the 608’s up front or if I stay with the bushings (my test rig was a vertical feed spool holder for the belt version so no second spool roller).
-3.  Slippage and grinding at the ERCF gear due to variation of top hat clamping force across the user base.
-4.  The sharp bend at the clamp and tension could cause brittle filament to break (Glenn hasn't experienced yet with 3-4 spools that are relatively fresh)
-5.  If we are on the edge of gear motor stall.  We are close to the stall threshold so the risk is that there is enough variation in the user community's ERCF builds, motors, and buffer builds that stall arises as an issue.  I definitely have occasionally experienced stall if something caused a small increase in resistance.  I may need to go NEMA17 to provide the headroom but will test on NEMA14 first.
-6.  TPU may not be stiff enough to transmit power to the Drive Roller and/or kink/bunch in the bowden path and create a high friction situation that inhibits the ability to unload filament.
+1.  O-ring durability.  The Chinese design used little, kinda thick silicone rings.  Those would wear through in ~70 cycles.  We are not seeing noticeable wear on the dual Buna-N o-rings at this point but at thousands of cycles we might see it.  Test CF filament.
+2.  Potential slippage and grinding at the ERCF gear due to buffer drag and variation of top hat clamping force across the user base.  Not an issue so far in real-workd printing cases.  Can/does occur when running test scripts and cycling the same section of filament in-and-out of the gears over-and-over.
+3.  The sharp bend at the clamp and tension could cause brittle filament to break.  SkiBikeMake and Cheesefrog have experienced this with specific spools.  SkiBikeMake plans to revise design of tensioner arm to include an additional rolloer guide to lessen the severity of the bend at the clamp.
+4.  Potential for being on the edge of gear motor stall.  We are close to the stall threshold so the risk is that there is enough variation in the user community's ERCF builds, motors, and buffer builds that stall arises as an issue.  I definitely have occasionally experienced stall if something caused a small increase in resistance.  I may need to go NEMA17 to provide the headroom but will test on NEMA14 first.
+5.  TPU may not be stiff enough to transmit power to the Drive Roller and/or kink/bunch in the bowden path and create a high friction situation that inhibits the ability to unload filament.
 
 
 # Printing Guidelines:
@@ -77,7 +76,7 @@ The system uses an adjustable spring clamp that forces the filament against two 
 |         | Tensioner Arm Right |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Arm%20Right.jpg" width="40" height="40"> | Horizontal                          |        |  |
 | 1       | Tensioner Mnt | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Mnt.jpg" width="40" height="40">                           | Vertical (as installed)                |   |   |
 | 1       | Rear Roller   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Rear%20Roller.jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
-| 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertial | N | pocket opening up |
+| 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertial | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple buffers. |
 | 2 | ECAS Locking Clip | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6837e24c214d6256fef5f5dbc52ac9dc8a1a9989/Filamentalist/Images/ECAS%20Locking%20Clip.jpg" width="40" height="40"> |  Horizontal | N | Tab up |
 
 
