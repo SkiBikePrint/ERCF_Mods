@@ -40,7 +40,7 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 2.  Potential slippage and grinding at the ERCF gear due to buffer drag and variation of top hat clamping force across the user base.  Not an issue so far in real-workd printing cases.  Can/does occur when running test scripts and cycling the same section of filament in-and-out of the gears over-and-over.
 3.  The sharp bend at the clamp and tension could cause brittle filament to break.  SkiBikeMake and Cheesefrog have experienced this with specific spools.  SkiBikeMake plans to revise design of tensioner arm to include an additional rolloer guide to lessen the severity of the bend at the clamp.
 4.  Potential for being on the edge of gear motor stall.  We are close to the stall threshold so the risk is that there is enough variation in the user community's ERCF builds, motors, and buffer builds that stall arises as an issue.  I definitely have occasionally experienced stall if something caused a small increase in resistance.  I may need to go NEMA17 to provide the headroom but will test on NEMA14 first.
-5.  TPU may not be stiff enough to transmit power to the Drive Roller and/or kink/bunch in the bowden path and create a high friction situation that inhibits the ability to unload filament.
+5.  TPU may not be stiff enough to transmit power to the Drive Roller and/or kink/bunch in the bowden path and create a high friction situation that inhibits the ability to unload filament.  Shore Hardness 96A TPU has been tested and functioned well.
 
 
 # Printing Guidelines:
@@ -52,12 +52,11 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 - 40% infill recommended.  Linear style infills are fastest (rectilinear, monotonic, grid, triangles, stars, etc.)
 - Wall Count: 4
 - Solid Top/Bottom Layers: 5
-- Seams:  Scattered seam pattern recommended for cyclindrical and press fit parts to aid in maintaining concentricity
 
 ## **Part Specific:**
 - Orientation suggestions are relative to the installed assembly orientation and are shown in the slicer images below.
   
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="125" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Black).jpg" width="250" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Orange).jpg" width="250" height="200">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91a91edf711fef61f6d5f5e6cde604b599f564d3/Filamentalist/Images/Filamentalist1.jpg" width="125" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Black).jpg" width="250" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Orange).jpg" width="250" height="200">
 
 
 | **Qty per Site** | **Part**  | **Pic** |  **Orientation**            | **Printed Supports Needed** | **Comments** |
@@ -66,8 +65,6 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 | 1       | Left Support | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Left%20Support.jpg" width="40" height="40">                                                            | Horizontal                   | N     |                                  |
 | 1       | Rear Roller Axle  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rear%20Roller%20Axle.jpg" width="40" height="40"> | Horizontal | N | align flat of "D" to build plate |
 | 1       | Rim Roller | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rim%20Roller.jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, scattered seams for press-fit bore     |
-| 1       | Hub-Rim Roller-Splined |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Hub-Rim%20Roller.jpg" width="40" height="40">                                    | Horizontal                   | N         |   |
-| 1       | Rim Roller-Splined | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rim%20Roller-Threaded.jpg" width="40" height="40">                                     | Horizontal                   | N         |    |
 | 1       | Center Drive Roller  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Center%20Drive%20Roller.jpg" width="40" height="40">                                                        | Horizontal                 | N        | Scattered seams for press fit-bore                              |
 | 2       | Center Drive Roller Spacer |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Center%20Drive%20Roller%20Spacer.jpg" width="40" height="40">    | Horizontal                 | N        | Scattered seams                               |
 |         | Tensioner Arm Left |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Arm%20Left.jpg" width="40" height="40"> | Horizontal                          |        |  |
@@ -141,27 +138,57 @@ The only tuning the system requires is Tensioner Arm clamping force.  The arm do
 
 # Testing
 
-Below is a macro you can cut and paste into the bottom of your ercf_software.cfg to test and tune the buffer.
+Below are macros you can cut and paste into the bottom of your mmu_software.cfg to test and tune your buffers.
 
 Happy multi-material printing and buffering!
 
+Single rewinder test macro:
 
-```[gcode_macro rewinder_test]
+```[gcode_macro rewinder_test] 
 gcode:
-    ERCF_TEST_LOAD LENGTH=50
+    MMU_TEST_LOAD LENGTH=50
     {% for n in range(20) %}
+
 # cycles currently set at 20, i.e. range(20).  You can changes this however you chose.
-        ERCF_SERVO_DOWN
-        MANUAL_STEPPER STEPPER="gear_stepper" SPEED=300 ACCEL=400 MOVE=800
+        M118 Cycle 
+        MMU_SERVO POS=DOWN
+#        MANUAL_STEPPER STEPPER="gear_stepper" SPEED=300 ACCEL=400 MOVE=800
+        MMU_TEST_MOVE SPEED=300 ACCEL=400 MOVE=800
 # change the SPEED and ACCEL as you see fit
-         ERCF_SERVO_UP
-        P4 500 # dwell for a bit
+        MMU_SERVO POS=UP
 # to stop a macro mid-cycle you must use the e-stop.  This dwell allows you to hit the e-stop while the servo is up so that you can pull the filament out of the ERCF while the printer/macro is stopped
-        ERCF_SERVO_DOWN
-        MANUAL_STEPPER STEPPER="gear_stepper" SPEED=300 ACCEL=400 MOVE=-800
+        MMU_SERVO POS=DOWN
+        MMU_TEST_MOVE SPEED=300 ACCEL=400 MOVE=-800
+        MMU_SERVO POS=UP
 
-         ERCF_SERVO_UP
-        P4 500 # dwell for a bit
     {% endfor %}
+```
 
+Test Macro for cycling through multiple rewinders:
+
+```[gcode_macro rewinder_test_multitool]
+gcode:
+    {% set gates = [5] %} # [0,1,2,3,4,5] move between these gates
+    {% set test_load_length = params.TEST_LOAD_LENGTH | default(50) | float %}
+    {% set repeats = params.REPEATS | default(20) | int %}
+    {% set speed = params.SPEED | default(300) | float %}
+    {% set accel = params.ACCEL | default(400) | float %}
+    {% set length = params.LENGTH | default(800) | float %}
+
+    MMU_HOME
+
+#    MMU_TEST_LOAD LENGTH=50
+    {% for n in range(repeats) %}
+        {% for gate in gates %}
+            MMU_SELECT GATE={gate}
+            MMU_TEST_LOAD LENGTH={test_load_length} # preload gate for a bit of length
+            MMU_TEST_MOVE SPEED={speed} ACCEL={accel} MOVE={length}
+            MMU_SERVO POS=UP
+            MMU_TEST_MOVE SPEED={speed} ACCEL={accel} MOVE=-{length}
+            MMU_EJECT
+            MMU_RECOVER
+
+        {% endfor %}
+  
+    {% endfor %}
 ```
