@@ -6,13 +6,11 @@
 # An "analog" passive filament driven buffer project currently in Beta build/testing by an elite team of MMU buffering experts.
 
 <p align="center">
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/319ebc64c6f7203fbcce4f664d93e957d442db1c/Filamentalist/Images/Filamentalist1.jpg" width="250" height="400">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91a91edf711fef61f6d5f5e6cde604b599f564d3/Filamentalist/Images/Filamentalist1.jpg" width="250" height="400">
 </p>
 
 # Theory of operation:
-The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to drive a spool roller system for filament loading and unloading.  A one-way clutch style bearing locks against a drive shaft and drives the filament spool to take up filament during an unload.  For loading and print extruding the clutch disengages and allows for free-spooling of the filament spool simliar to a roller style spool holder.
-
-The system uses an adjustable spring clamp that forces the filament against two rotating o-rings that sit on the drive pulley to create a high traction interface.  An ~3:1 spool rotation ratio is required to provide enough spool rotation range to buffer and unload onto a nearly empty filament spool or a new/full filament spool.  Because of this range, a full spool is overdriven and some slip is required in the system.  This slip occurs between the bearings in the Filament Tensioner Arm and the o-ring gripping point on the drive roller.  As the tension on the filament from the overdriven spool increases, the spring tensioned Tensioner Arm lifts and momentarily releases grip on the filament.  This happens in a smooth, continuous, and modulated fashion at various degrees depending on the diameter of the ever changing filament roll.
+The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two rotating o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding the clutch modulates between engagement/disengagement allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/d4a97d975891752a95d3143c7ecd344cd291694b/Filamentalist/Images/Filamentalist6.jpg" width="300" height="400">
