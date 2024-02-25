@@ -9,6 +9,8 @@
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91a91edf711fef61f6d5f5e6cde604b599f564d3/Filamentalist/Images/Filamentalist1.jpg" width="250" height="400">
 </p>
 
+See video of 3 buffers swapping here:  https://photos.app.goo.gl/iyLBGgytfVCPNLVBA
+
 # Theory of operation:
 The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch modulates between engagement/disengagement allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
 
