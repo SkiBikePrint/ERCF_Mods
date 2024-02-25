@@ -18,20 +18,20 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 
 ## **BOM:**
 
-| ** Qty per Site ** | ** Part ** | <span style="display: inline-block; width:50px">** Source Reference **</span> | ** Comments ** |
+| Qty per Site | Part | Example Source Reference | Comments |
 |-------|---------------------------|-----------------------------|-------------------------------|
-|   1   | 8mm D x 80mm Stainless Steel Dowell Pin | https://www.amazon.com/uxcell-Stainless-Chamfered-Support-Elements/dp/B0BC8VFSWD/ref=sr_1_6?crid=22CDLHMHS6357&keywords=m8x80%2Bdowel&qid=1708297543&s=industrial&sprefix=m8x80%2Bdowel%2Cindustrial%2C172&sr=1-6&th=1 |  |
-|   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  |  |
-|   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS?psc=1&ref=ppx_yo2ov_dt_b_product_details | 8mm Bore, 12mm length, 14.2mm Diameter |
-|   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | A locking clip is required and can be bought or printed (stl included)|
-|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/ref=sr_1_5?crid=1LSZX361EMYL1&keywords=%23110+13%2F16+buna-n+o-ring&qid=1706477152&s=industrial&sprefix=+110+13%2F16+buna-n+o-ring%2Cindustrial%2C166&sr=1-5 | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD  |
-|   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1 | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
+|   1   | 8mm D x 80mm Stainless Steel Dowell Pin | https://www.amazon.com/uxcell-Stainless-Chamfered-Support-Elements/dp/B0BC8VFSWD | or cut any 8mm stainless rod to 80mm lengths |
+|   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  | MR608RS, MR608ZZ, etc. |
+|   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS, Aliexpress | 8mm Bore, 12mm length, 14.2mm Diameter. |
+|   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | A locking clip is required and can be bought or printed (stl included) |
+|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD Nitrile Butadiene Rubber|
+|   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/, Aliexpress | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
 |   2 | 3mm Heatset  |  | Voron standard size | one as a spring stop on the 3x50mm SHCS tensioning screw and the other set into the Tensioner Mnt |
-|   1   | 3x50mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw anything in the range of 40mm + should work|
-|   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation |
-|   2   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation |
-|   2   | Rubber Band | https://www.amazon.com/dp/B0CPJPN41V?ref=ppx_yo2ov_dt_b_product_details&th=1 | Size #94 (3 1/2'' x 3/4'') |+
-| var.  | 2.5mm ID PTFE tubing | | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your buffer location to your ERCF inputs | |
+|   1   | 3x35mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw anything in the range of 35mm +/- 10mm should work|
+|   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation 8/10/12mm lengths will work|
+|   2   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation 16mm length will work |
+|   2   | Rubber Band | https://www.amazon.com/dp/B0CPJPN41V | Size #94 (3 1/2" x 3/4"), any wide rubber bands in the 2.5"-3.5" size will work.  Can combined multiples across face of rollers |
+| var.  | 2.5mm ID PTFE tubing | Amazon, Aliexpress, 3D printing vendors | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your buffer location to your ERCF inputs |
 
 
 # Beta Test Potential Failure Modes to Test/Vette:
