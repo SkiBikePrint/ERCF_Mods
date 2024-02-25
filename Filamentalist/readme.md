@@ -18,8 +18,8 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 
 ## **BOM:**
 
-| ** Qty per Site ** | ** Part ** | ** Source Reference ** | ** Comments ** |
-|-------|---------------------------------------------|-----------------------------------------------|-------------------------------------------------|
+| ** Qty per Site ** | ** Part ** | <span style="display: inline-block; width:50px">** Source Reference **</span> | ** Comments ** |
+|-------|---------------------------|-----------------------------|-------------------------------|
 |   1   | 8mm D x 80mm Stainless Steel Dowell Pin | https://www.amazon.com/uxcell-Stainless-Chamfered-Support-Elements/dp/B0BC8VFSWD/ref=sr_1_6?crid=22CDLHMHS6357&keywords=m8x80%2Bdowel&qid=1708297543&s=industrial&sprefix=m8x80%2Bdowel%2Cindustrial%2C172&sr=1-6&th=1 |  |
 |   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  |  |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS?psc=1&ref=ppx_yo2ov_dt_b_product_details | 8mm Bore, 12mm length, 14.2mm Diameter |
