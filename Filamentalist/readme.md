@@ -96,10 +96,12 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/b4d31df2ec4a3d861791060331a895c2e0212f95/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
 
-   - 2.1 Place a 3x18 FHCS through the bearing mount hole of the Tensioner Arm Right part and slide the two F683 bearins onto it with the flanges facing outward (this should be a clearance hole).  Place the Tensioner Arm Left part into postion making sure the square indexing peg seats correctly at the bottom of the arm.  Moderatly tighten the screw into the Tensioner Arm right piece and then back off ~1/4 turn.  Once installed verify that both bearings turn freely.  It may be hard to see if the bearings are turning.  One trick is to place Sharpie dots on the bearing faces to see if they move while turning the bearings.
-   - 2.2 Screw 3x45mm spring tensioning screw back into the body of the Tensioner Mnt to get it out of the way.
-   - 2.3 Install the Tensioner Arm onto the Tensioner Mnt using a 3x18mm FHCS screw.  Tighten until snug and then back off ~1/4 turn.  The arm should rotate freely on the mount.
+   - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into postion making sure the triangular indexing peg seats correctly at the bottom of the arm (light hammer taps with a tiny hammer may be required to seat).
+   - 2.2 Place a 3x18 FHCS (or x16, x12) through the bearing mount hole of the Tensioner Arm Left part and moderately tighten the screw into the Tensioner Arm right piece.  Once installed verify that the bearing turns freely.
+   - 2.3 Place a 3x18 FHCS (or x16, x12) through the hole in the Tensioner Arm Left part at the "nose" end and moderately tighten the screw into the Tensioner Arm right piece.  
+   - 2.4 Install the Tensioner Arm onto the Tensioner Mnt using a 3x18mm FHCS screw (or x16) .  Tighten until snug and then back off until the arm should rotates freely on the mount.
    - 2.4 Place the spring into the spring pockets of both the mount and the arm, and tape the bottom of the arm to the mount to prevent the spring from falling out while completing the rest of the build.  No tension should be on the spring at this point.
+   - 2.4 Screw 3x35mm spring tensioning screw (or x30, x40) back into the body of the Tensioner Mnt to get it out of the way.
 
 # 3. Drive Roller Assembly
 
