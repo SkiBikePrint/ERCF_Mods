@@ -85,7 +85,7 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 # 1. Tensioner Mount Assembly
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/b4d31df2ec4a3d861791060331a895c2e0212f95/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/b3865d1dce459810b443cc16736aa5070a433a71/Filamentalist/Images/Tensioner_Assy.jpg" width="400" height="350">
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
    - 1.2 Screw 3x45mm SHCS mostly into the threaded heatset insert with ~10mm protruding out the other end.
@@ -94,7 +94,7 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 # 2. Tensioner Arm Installation
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/b4d31df2ec4a3d861791060331a895c2e0212f95/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/b3865d1dce459810b443cc16736aa5070a433a71/Filamentalist/Images/Tensioner_Assy.jpg" width="400" height="350">
 
    - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into postion making sure the triangular indexing peg seats correctly at the bottom of the arm (light hammer taps with a tiny hammer may be required to seat).
    - 2.2 Place a 3x18 FHCS (or x16, x12) through the bearing mount hole of the Tensioner Arm Left part and moderately tighten the screw into the Tensioner Arm right piece.  Once installed verify that the bearing turns freely.
