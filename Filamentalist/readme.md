@@ -85,12 +85,10 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 # 1. Tensioner Mount Assembly
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/00f46444ee782cfbc7f8cf774b155c56dacfa148/Filamentalist/Images/Tensioner%20Mnt%20Assembly.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/662caf6e50f499b8f42359d868c06f1419f9e44f/Filamentalist/Images/Tensioner_Mnt.jpg" width="400" height="350">
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
-   - 1.2 Screw 3x45mm SHCS mostly into the threaded heatset insert with ~10mm protruding out the other end.
-   - 1.3 Thread another 3mm heatset insert onto 3x45mm SHCS with ~3mm of the screw protruding beyond it.  Use Superglue or threadlocker (Loctite) to lock it in place.  It is important that the heatset insert does not turn on the screw once it is installed.
-   - 1.4 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using the end of a 8mm steel shaft or printed rear axle shaft to get it to sit flush to the Tensioner Mnt mating surface.
+   - 1.2 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using the end of a 8mm steel shaft or printed rear axle shaft to get it to sit flush to the Tensioner Mnt mating surface.
 
 # 2. Tensioner Arm Installation
 
@@ -99,9 +97,8 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
    - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into postion making sure the triangular indexing peg seats correctly at the bottom of the arm (light hammer taps with a tiny hammer may be required to seat).
    - 2.2 Place a 3x18 FHCS (or x16, x12) through the bearing mount hole of the Tensioner Arm Left part and moderately tighten the screw into the Tensioner Arm right piece.  Once installed verify that the bearing turns freely.
    - 2.3 Place a 3x18 FHCS (or x16, x12) through the hole in the Tensioner Arm Left part at the "nose" end and moderately tighten the screw into the Tensioner Arm right piece.  
-   - 2.4 Install the Tensioner Arm onto the Tensioner Mnt using a 3x18mm FHCS screw (or x16) .  Tighten until snug and then back off until the arm should rotates freely on the mount.
-   - 2.4 Place the spring into the spring pockets of both the mount and the arm, and tape the bottom of the arm to the mount to prevent the spring from falling out while completing the rest of the build.  No tension should be on the spring at this point.
-   - 2.4 Screw 3x35mm spring tensioning screw (or x30, x40) back into the body of the Tensioner Mnt to get it out of the way.
+   - 2.4 Install the Tensioner Arm onto the Tensioner Mnt using a 3x18mm FHCS screw (or x16) .  Tighten until snug and then back off until the arm rotates freely on the mount.
+   - 2.5 Place an M3 washer followed by the spring onto an M3x35 SHCS (or x30, x40) and slide through the hole in the bottom of the arm assembly.  Screw the SHCS into the heatset insert of the Tensioner Mnt.  No tension should be on the spring at this point.
 
 # 3. Drive Roller Assembly
 
@@ -117,7 +114,7 @@ The purpose of this two-piece roller is to allow for future o-ring replacement b
 
 # 4. Base Assembly
 
-There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and require no hardware to mount.  You print all of the same parts expect for the 2 Base Supports that use the clip mount version.  Assmebly is the same.
+There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and require no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version.  Assmebly is the same.
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
 
@@ -125,14 +122,13 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/ab9b4967ab9052f7a707d3c00bb203262c5fd5c7/Filamentalist/Images/Base%20Assembly.jpg" width="400" height="350">
 
-   - 4.2 Screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws.
-   - 4.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket of the Support.  Ensure it presses all of the way in (you may need to tap it in a bit).  Secure with (1) 3x18 FHCS screw.  
+   - 4.2 Place the Tensioner Assembly around the Drive Roller Assembly and screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws (or x10, x8).
+#       !! THIS IS WHERE AXLE ORIENTATION MATTERS !!   
+#          Orient the Drive roller assembly so that the one-way bearing locks in the filament unload/eject direction.  This can be verified byholding one of the outer drive rollers and rotating the center drive roller.  It should lock when the center roller is rotated in the direction away from the ERCF.
+   - 4.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket of the Support.  Ensure it presses all of the way in (you may need to tap it in a bit).  Secure with (1) 3x18 FHCS screw (or x10, x8).  
    - 4.4 Slide the Rear Roller onto the Rear Roller Axle.
-   - 4.5 Insert the Drive Roller Assembly Axle into the MR608 bearing of this same Support Part.  
-#              !! THIS IS WHERE AXLE ORIENTATION MATTERS !! 
-   - Orient the Drive roller assembly so that the one-way bearing locks in the filament unload/eject direction.  This can be verified by holding one of the outer drive rollers and rotating the center drive roller.  It should lock when the center roller is rotated outward (i.e. driving filament away from the ERCF).
-- 3.6 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws.  Make sure there is no spring tension on the Tensioner arm for this step.
-- 3.7 Insert a section of bowden tube into the ECAS until it bottoms out/butts against the Tensioner Mnt behind the ECAS.  Place a locking clip in the ECAS (if you don't have these, an stl file is provided to print the locking clips).  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
+   - 4.5 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws (or x10, x8).  Make sure there is no spring tension on the Tensioner arm for this step.
+   - 4.6 Insert a section of bowden tube into the ECAS until it bottoms out/butts against the Tensioner Mnt behind the ECAS.  Place a locking clip in the ECAS (if you don't have these, an stl file is provided to print the locking clips).  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.
 
 
 # Tuning
