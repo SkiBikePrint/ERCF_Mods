@@ -1,3 +1,10 @@
+To Do:
+1.  Add comment re: beveling inner edge of PTFE tubes.
+2.  Update pics to latest parts
+3.  Discuss tuning for rim slip vs o-ring slip and recommended roller surfaces.
+4.  Cover o-ring replacement process.
+5.  Design a spool weight?
+
 <h1 align="center">The "Filamentalist"</h1>
 
 
@@ -12,7 +19,7 @@
 See video of 3 buffers swapping here:  https://photos.app.goo.gl/iyLBGgytfVCPNLVBA
 
 # Theory of operation:
-The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch modulates between engagement/disengagement allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
+The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch modulates between engagement/disengagement allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface and/or the spool rim and the rim roller of the buffer to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/1798f91db1e9171a195a754c68675f0b5da8bcaf/Filamentalist/Images/Filamentalist6.jpg" width="300" height="400">
