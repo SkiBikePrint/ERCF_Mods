@@ -4,6 +4,7 @@ To Do:
 3.  Discuss tuning for rim slip vs o-ring slip and recommended roller surfaces.
 4.  Cover o-ring replacement process.
 5.  Design a spool weight?
+6.  Check/update test code at bottom (single tool should be good)
 
 <h1 align="center">The "Filamentalist"</h1>
 
@@ -151,25 +152,31 @@ Happy multi-material printing and buffering!
 
 Single rewinder test macro:
 
-```[gcode_macro rewinder_test] 
+```[gcode_macro rewinder_test]
 gcode:
-    MMU_TEST_LOAD LENGTH=50
-    {% for n in range(20) %}
 
-# cycles currently set at 20, i.e. range(20).  You can changes this however you chose.
-        M118 Cycle 
+    {% set gate = params.TESTGATE | default(0) | int %}
+    {% set repeats = params.REPEATS | default(20) | int %}
+    {% set length = params.LENGTH | default(800) | float %}
+    {% set speed = params.SPEED | default(300) | float %}
+    {% set accel = params.ACCEL | default(400) | float %}
+
+    MMU_HOME TOOL={gate}
+
+    MMU_TEST_LOAD LENGTH=50
+    {% for n in range(repeats) %}
+
         MMU_SERVO POS=DOWN
-#        MANUAL_STEPPER STEPPER="gear_stepper" SPEED=300 ACCEL=400 MOVE=800
-        MMU_TEST_MOVE SPEED=300 ACCEL=400 MOVE=800
-# change the SPEED and ACCEL as you see fit
-        MMU_SERVO POS=UP
-# to stop a macro mid-cycle you must use the e-stop.  This dwell allows you to hit the e-stop while the servo is up so that you can pull the filament out of the ERCF while the printer/macro is stopped
-        MMU_SERVO POS=DOWN
-        MMU_TEST_MOVE SPEED=300 ACCEL=400 MOVE=-800
-        MMU_SERVO POS=UP
+
+            MMU_SELECT GATE={gate}
+            MMU_TEST_LOAD LENGTH={test_load_length} # preload gate for a bit of length
+            MMU_TEST_MOVE SPEED={speed} ACCEL={accel} MOVE={length}
+            MMU_TEST_MOVE SPEED={speed} ACCEL={accel} MOVE=-{length}
+            MMU_SERVO POS=UP
 
     {% endfor %}
-```
+
+    MMU_HOME```
 
 Test Macro for cycling through multiple rewinders:
 
