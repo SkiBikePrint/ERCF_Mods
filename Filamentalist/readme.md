@@ -5,6 +5,11 @@ To Do:
 4.  Cover o-ring replacement process.
 5.  Design a spool weight?
 6.  Check/update test code at bottom (single tool should be good)
+7.  Mention design compromises around space/compactness.  It's a simpledesign so feel free to usermod to your heart's content!
+ - height to fit Beta team's enclosures
+ - width to fit 6 across a 350
+    - this drove minimal roller rim size (and to print without supports)
+
 
 <h1 align="center">The "Filamentalist"</h1>
 
