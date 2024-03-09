@@ -1,5 +1,5 @@
 To Do:
-1.  Add comment re: beveling inner edge of PTFE tubes.
+1.  Add comment re: beveling inner edge of PTFE tubes and cleaning up filament funnel hole if necessary.
 2.  Update pics to latest parts
 3.  Discuss tuning for rim slip vs o-ring slip and recommended roller surfaces.
 4.  Cover o-ring replacement process.
