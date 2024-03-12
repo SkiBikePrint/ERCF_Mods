@@ -9,6 +9,7 @@ To Do:
  - height to fit Beta team's enclosures
  - width to fit 6 across a 350
     - this drove minimal roller rim size (and to print without supports)
+8.  Discuss spool widths and the suggestion for usermods to widen as needed (i.e. KVP at 72mm wide, KVP printed "Koil" spool, etc.)
 
 
 <h1 align="center">The "Filamentalist"</h1>
