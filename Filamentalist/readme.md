@@ -10,7 +10,7 @@ To Do:
  - width to fit 6 across a 350
     - this drove minimal roller rim size (and to print without supports)
 8.  Discuss spool widths and the suggestion for usermods to widen as needed (i.e. KVP at 72mm wide, KVP printed "Koil" spool, etc.)
-9.  Sync strongly recommended
+9.  Sync strongly recommended with NEMA17 do to slip resistance for fuller spools.
 10.Some o-ring and gear grinding debris will be generated (incorporate a filament wiper?)
 
 
