@@ -11,7 +11,8 @@ To Do:
     - this drove minimal roller rim size (and to print without supports)
 8.  Discuss spool widths and the suggestion for usermods to widen as needed (i.e. KVP at 72mm wide, KVP printed "Koil" spool, etc.)
 9.  Sync strongly recommended with NEMA17 do to slip resistance for fuller spools.
-10.Some o-ring and gear grinding debris will be generated (incorporate a filament wiper?)
+10. Some o-ring and gear grinding debris will be generated (incorporate a filament wiper?)
+11. Ensure one-way bearing resistance is low in non-locked mode
 
 
 <h1 align="center">The "Filamentalist"</h1>
@@ -28,7 +29,7 @@ To Do:
 See video of 3 buffers swapping here:  https://photos.app.goo.gl/iyLBGgytfVCPNLVBA
 
 # Theory of operation:
-The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch modulates between engagement/disengagement allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface and/or the spool rim and the rim roller of the buffer to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
+The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch disengages allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface and/or the spool rim and the rim roller of the buffer to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/1798f91db1e9171a195a754c68675f0b5da8bcaf/Filamentalist/Images/Filamentalist6.jpg" width="300" height="400">
@@ -42,23 +43,14 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 |   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  | MR608RS, MR608ZZ, etc. |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS, Aliexpress | 8mm Bore, 12mm length, 14.2mm Diameter. |
 |   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | A locking clip is required and can be bought or printed (stl included) |
-|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD Nitrile Butadiene Rubber|
+|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD, Nitrile Butadiene Rubber (Buna-N)|
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/, Aliexpress | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
-|   2 | 3mm Heatset  |  | Voron standard size | one as a spring stop on the 3x50mm SHCS tensioning screw and the other set into the Tensioner Mnt |
+|   1 | 3mm Heatset  |  | Voron standard size | set into the Tensioner Mnt |
 |   1   | 3x35mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw anything in the range of 35mm +/- 10mm should work|
 |   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation 8/10/12mm lengths will work|
-|   2   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation 16mm length will work |
+|   3   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation 16mm length will work |
 |   2   | Rubber Band | https://www.amazon.com/dp/B0CPJPN41V | Size #94 (3 1/2" x 3/4"), any wide rubber bands in the 2.5"-3.5" size will work.  Can combined multiples across face of rollers |
 | var.  | 2.5mm ID PTFE tubing | Amazon, Aliexpress, 3D printing vendors | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your buffer location to your ERCF inputs |
-
-
-# Beta Test Potential Failure Modes to Test/Vette:
-
-1.  O-ring durability.  The Chinese design used little, kinda thick silicone rings.  Those would wear through in ~70 cycles.  We are not seeing noticeable wear on the dual Buna-N o-rings at this point but at thousands of cycles we might see it.  Test CF filament.
-2.  Potential slippage and grinding at the ERCF gear due to buffer drag and variation of top hat clamping force across the user base.  Not an issue so far in real-workd printing cases.  Can/does occur when running test scripts and cycling the same section of filament in-and-out of the gears over-and-over.
-3.  The sharp bend at the clamp and tension could cause brittle filament to break.  SkiBikeMake and Cheesefrog have experienced this with specific spools.  SkiBikeMake plans to revise design of tensioner arm to include an additional rolloer guide to lessen the severity of the bend at the clamp.
-4.  Potential for being on the edge of gear motor stall.  We are close to the stall threshold so the risk is that there is enough variation in the user community's ERCF builds, motors, and buffer builds that stall arises as an issue.  I definitely have occasionally experienced stall if something caused a small increase in resistance.  I may need to go NEMA17 to provide the headroom but will test on NEMA14 first.
-5.  TPU may not be stiff enough to transmit power to the Drive Roller and/or kink/bunch in the bowden path and create a high friction situation that inhibits the ability to unload filament.  Shore Hardness 96A TPU has been tested and functioned well.
 
 
 # Printing Guidelines:
