@@ -201,43 +201,4 @@ gcode:
         {% endfor %}
   
     {% endfor %}
-
-
-
-[gcode_macro rewinder_test_with_cut]
-gcode:
-    {% set gate = params.GATE | default(5) | int %}
-    {% set extrude_length = params.EXTRUDE_LENGTH | default(10) | float %}
-    {% set repeats = params.REPEATS | default(1) | int %}
-    {% set single_cycle_repeats = params.SINGLE_CYCLE_REPEATS | default(0) | int %}
-    {% set single_cycle_test_length = params.SINGLE_CYCLE_TEST_LENGTH | default(500) | float %}
-    {% set test_load_length = params.TEST_LOAD_LENGTH | default(50) | float %}
-    SAVE_GCODE_STATE NAME=rewinder_test_with_cut_state
-    MMU_SELECT GATE={params.GATE}
-    M83
-    {% for i in range(repeats) %}
-        RESPOND MSG="cycle {i} / {repeats}..."
-        {% for j in range(single_cycle_repeats) %}
-            MMU_TEST_LOAD LENGTH={test_load_length} # preload gate for a bit of length
-#            _ensure_filament_state STATE="Loaded"
-            MMU_TEST_MOVE SPEED={300} ACCEL={400} MOVE={single_cycle_test_length}
-            MMU_SERVO POS=UP
-            MMU_TEST_MOVE SPEED={300} ACCEL={400} MOVE=-{single_cycle_test_length}
-            MMU_EJECT
-#            _ensure_filament_state STATE="Unloaded"
-            MMU_RECOVER
-        {% endfor %}
-        T{gate}
-#        _ensure_filament_state STATE="Loaded"
-        G1 E{extrude_length} F1000
-        MMU_EJECT
-#        _ensure_filament_state STATE="Unloaded"
-    {% endfor %}
-    RESTORE_GCODE_STATE NAME=rewinder_test_with_cut_state
-
-[gcode_macro _ensure_filament_state]
-gcode: 
-    {% if printer.mmu.filament != params.STATE %}
-        { action_raise_error( 'MMU operation failed; aborted' ) }
-    {% endif %}
 ```
