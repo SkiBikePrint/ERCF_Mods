@@ -1,20 +1,3 @@
-To Do:
-1.  Add comment re: beveling inner edge of PTFE tubes and cleaning up filament funnel hole if necessary.
-2.  Update pics to latest parts
-3.  Discuss tuning for rim slip vs o-ring slip and recommended roller surfaces.
-4.  Cover o-ring replacement process.
-5.  Design a spool weight?
-6.  Check/update test code at bottom (single tool should be good)
-7.  Mention design compromises around space/compactness.  It's a simpledesign so feel free to usermod to your heart's content!
- - height to fit Beta team's enclosures
- - width to fit 6 across a 350
-    - this drove minimal roller rim size (and to print without supports)
-8.  Discuss spool widths and the suggestion for usermods to widen as needed (i.e. KVP at 72mm wide, KVP printed "Koil" spool, etc.)
-9.  Sync strongly recommended with NEMA17 do to slip resistance for fuller spools.
-10. Some o-ring and gear grinding debris will be generated (incorporate a filament wiper?)
-11. Ensure one-way bearing resistance is low in non-locked mode
-
-
 <h1 align="center">The "Filamentalist"</h1>
 
 <h1 align="center">A passive filament driven rewinder/buffer</h1>
@@ -23,14 +6,22 @@ To Do:
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/29681c81d6f0a38790b672aa099865cbd5e38a43/Filamentalist/Images/Filamentalist.png" width="375" height="525">
 </p>
 
-See video of 3 buffers swapping here:  https://photos.app.goo.gl/iyLBGgytfVCPNLVBA
+See video of 3 rewinderss swapping here:  https://photos.app.goo.gl/iyLBGgytfVCPNLVBA
 
 # Theory of operation:
-The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch disengages allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface and/or the spool rim and the rim roller of the buffer to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
+The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch disengages allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface and/or the spool rim and the rim roller of the rewinder to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Filamentalist6_1.jpg" width="400" height="465">
 </p>
+
+## **Additional Notes/Considerations** 
+
+This rewinder is "almost" perfect.  Things that you need to know
+1. The ERCF gear stepper is doing the heavy lifting.  Configure your gear stepper to run in sync mode with your extruder via Happy Hare settings.
+2. A high torque NEMA 17 motor is recommended.  Many in the Beta team ran NEMA 17's spec'd at 55 N-cm max torque and config'd them for 1-1.4A.  Grafton's 40 tooth NEMA 17 mod is recommended (https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction).  This may not be required so if you already have built your ERCF, try the Filamentalist with the motor you have and decide if you think you need more torque.
+3. Several in the Beta team had space constraints that they wanted the rewinder to honor.  As a result the width of the Filamentalist was set to support most standard 1, 0.5, and 0.25KG spool sizes and still be able to fit 6 rewinders across a 350 size Voron printer.  Some spools such as KVP's are too wide to fit the baseline design.  It's a simple design so feel free to usermod to your heart's content to fit your needs!  Height was set to be as low as possible to fit some existing dry box designs.
+4. Because the standard tuning of this design relies on some filament slip at the o-rings, the o-rings will ultimately wear-out.  Testing and extrapolation estimates that the wear-out point is ~4K cycles +/- 1K.  The impact of o-ring wear-out can be reduced by periodically swapping highly used rewinders with low use rewinders.  Ultimately o-rings can be replaced by the process described in section 3.2 of the Drive Roller Assembly section. This o-ring sip/wear also creates a small amount of rubber dust/debris to go along with the typical filament dust /debris that the ERCF gears create.  You may want to add a filament cleaner of you choice.
 
 ## **BOM:**
 
@@ -47,7 +38,7 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 |   6   | 3x12 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Mnt and Rear Axle installation 8/10/12mm lengths will work|
 |   3   | 3x18 FHCS  |  Stainless Steel Flat Head Screw | for Tensioner Arm clamp bearings and Tensioner Mnt pivot installation 16mm length will work |
 |   2   | Rubber Band | https://www.amazon.com/dp/B0CPJPN41V | Size #94 (3 1/2" x 3/4"), any wide rubber bands in the 2.5"-3.5" size will work.  Can combined multiples across face of rollers |
-| var.  | 2.5mm ID PTFE tubing | Amazon, Aliexpress, 3D printing vendors | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your buffer location to your ERCF inputs |
+| var.  | 2.5mm ID PTFE tubing | Amazon, Aliexpress, 3D printing vendors | 2.5mm ID recommended but you can try whatever you have.  Length depends on the distance from your rewinder location to your ERCF inputs |
 
 
 # Printing Guidelines:
@@ -70,6 +61,7 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 |------|-----------------------------------------|------------|--------------------|-----|---------------------------------|
 | 1       | Right Support | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Right%20Support.jpg" width="40" height="40"> |  Horizontal                   | N     |                                  |
 | 1       | Left Support | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Left%20Support.jpg" width="40" height="40">                                                            | Horizontal                   | N     |                                  |
+| 1       | Base | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/a88c2c8f885684abdce5d5ff6f18d316faf91c62/Filamentalist/Images/Base.jpg" width="40" height="40">                                                            | Horizontal                   | N     | Optional part for a standalone unit not mounted to another surface  |
 | 1       | Rear Roller Axle  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rear%20Roller%20Axle.jpg" width="40" height="40"> | Horizontal | N | align flat of "D" to build plate |
 | 1       | Rim Roller | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rim%20Roller.jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up     |
 | 1       | Rim Roller (Threaded) | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Rim%20Roller%20(Threaded).jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, recommend scattered seams for improved thread perfromance |
@@ -81,7 +73,7 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 | 1       | Tensioner Mnt | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Mnt.jpg" width="40" height="40">                           | Vertical (as installed)                | N  |   |
 | 1       | Idler Roller (male)   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Idler%20Roller%20(male).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
 | 1       | Idler Roller (female)   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Idler%20Roller%20(female).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
-| 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertical | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple buffers. |
+| 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertical | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple rewinders. |
 | 2 | ECAS Locking Clip | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6837e24c214d6256fef5f5dbc52ac9dc8a1a9989/Filamentalist/Images/ECAS%20Locking%20Clip.jpg" width="40" height="40"> |  Horizontal | N | Tab up |
 
 
@@ -115,75 +107,71 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 - 3.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
 - 3.2 Screw the Rim Roller Hub (Threaded) part into the Rim Roller (Threaded) part until they are flush with each other.  You may need to use a tool like a flat bladed screwdriver inserted into the hub splines for initial threading.  If threading is excessively tight, thread the hub in and out of the roller multiple times blowing our any debris until there is only light-to-moderate resistance on the threads and then screw the Rim Roller tightly onto the Hub.  Place the roller onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Roller assembly until the shaft bottoms-out on the pocket in the Axle Pressing Tool.  If tapping the shaft in, you will hear a change in the pitch of the "thud" when the shaft reaches the floor of the Axle Pressing Tool.
 
-The purpose of this two-piece roller is to allow for future o-ring replacement by removing the Rim Roller from the Hub versus having to press a roller off of the axle and then press it back on.  For o-ring replacement, remove the Drive Roller Assembly from the buffer (unscrew the (6) screws of the Right and Left Supports).  Then unscrew the Rim Roller from the Rim Roller Hub.  You can now remove the old o-rings and install a pair of new ones, screw the Rim Roller back onto the Hub, and re-install the supports.
+The purpose of this two-piece roller is to allow for future o-ring replacement by removing the Rim Roller from the Hub versus having to press a roller off of the axle and then press it back on.  For o-ring replacement, remove the Drive Roller Assembly from the rewinder (unscrew the (6) screws of the Right and Left Supports).  Then unscrew the Rim Roller from the Rim Roller Hub.  You can now remove the old o-rings and install a pair of new ones, screw the Rim Roller back onto the Hub, and re-install the supports.
 
 - 3.3 Slide (1) Center Drive Roller spacer followed by the Center Drive Roller (with One-way bearing already installed)
 #       !! THIS IS WHERE THE DRIVE ROLLER ORIENTATION MATTERS !!   
 #          Orient the pressed-on Rim Roller Threaded part and shaft so that the shaft is facing upwards from the Roller. Place the Center Drive roller assembly onto the shaft so that the one-way bearing locks in the filament unload/eject direction (locks with clockwise rotation when turning on shaft with Rim Roller (Threaded) below the Drive Roller).  This orientation of Rim Roller (Threaded) and Center Drive Roller ensures that the Rim Roller Hub (Threaded) part will want to tighten against the Rim Roller (Threaded) part when experiencing the highest resistance that occurs during unload/eject.
 - 3.4 Slide the second Center Drive Roller spacer onto the axle shaft.
 - 3.5 Position the Rim Roller part (non threaded roller) onto the Axle Pressing Tool with dished side facing down as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Rim Roller part until the shaft bottoms-out in the pocket of the Axle Pressing Tool.
+- 3.4 It is very important that the one-way bearing rotates in the unlocked direction freely with low resistance .  If the resistance of the one-way bearing is greater thatn the combined resistance of the two 608 bearins that the Drive Roller steel axle turns in then the system won't disengage and freespool properly during filament loads resulting in loose coils on the spool.  There has been limited instances of certain one-way bearings having too much resistance.  If your one-way bearings don't spin freely in the unlocked direction then assess your shaft diameter to ensure it is not to much above 8mm and/or you may need to try a different brand of one-way bearing.
 
 # 4. Base Assembly
 
 There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version (see "Clip Mount Base Version" folder under STL's directory.  Assembly is the same.
 
+Also, there is an optional "Base" part that mounts to the Supports and Tensioner Mount for a standalone application where the unit will not be attached to some other mounting suface.
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/a88c2c8f885684abdce5d5ff6f18d316faf91c62/Filamentalist/Images/Base.jpg" width="250" height="250">
+
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Base%20MR608%20Bearings.jpg" width="300" height="350">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2069f29dd108fc0a90424fd3d8a989f8cd7d30d4/Filamentalist/Images/Rear%20Roller%20MR608%20Bearings.jpg" width="300" height="250">
 
-   - 4.1 Thread the Idler Roller (male) and Idler Roller (female) together tightly.  Press a total of (4) MR608 bearings into the Right Support, Left Support, and Idler Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Idler Roller.  Ensure the inner races of the bearings in the Right/Left Support parts turn freely.
+   - 4.1 Thread the Idler Roller (male) and Idler Roller (female) parts together tightly.  Press a total of (4) MR608 bearings into the Right Support, Left Support, and Idler Roller parts.  The Axle Pressing Tool can be used to aid with pressing the bearings into the deep bearing pockets of the Idler Roller.  Ensure the inner races of the bearings in the Right/Left Support parts turn freely.
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/ab9b4967ab9052f7a707d3c00bb203262c5fd5c7/Filamentalist/Images/Base%20Assembly.jpg" width="400" height="350">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/008c49d425768e41388aca29f8c0043d37e5f5bd/Filamentalist/Images/Base%20Assy_1.jpg" width="400" height="350">
 
    - 4.2 Place the Tensioner Assembly around the Drive Roller Assembly and screw the Tensioner Mnt onto one of the Support parts using (2) 3x12 FHCS screws (or x10, x8).
 # Double Check that the one-way bearing of the Center Drive Roller locks when rotated in the direction of a filament unload.
    - 4.3 Insert the Rear Roller Axle through the same base part aligning the "D" shape end to the flat in the 8mm pocket of the Support.  Ensure it presses all of the way in (you may need to tap it in a bit).  Secure with (1) 3x18 FHCS screw (or x10, x8).  
    - 4.4 Slide the Rear Roller onto the Rear Roller Axle.
    - 4.5 Install the opposite side Support part to assembly pressing in the D shaft end and securing with (3) 3x12 FHCS screws (or x10, x8).  Make sure there is no spring tension on the Tensioner arm for this step.
-   - 4.6 Insert a section of bowden tube into the ECAS until it bottoms out/butts against the Tensioner Mnt behind the ECAS.  Place a locking clip in the ECAS (if you don't have these, an stl file is provided to print the locking clips).  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  Cut your section of tubing a little long for the location of the buffer and the run to the ERCF slot position.  You can fine tune/trim the length after installtion of the buffer.  
-# It is recommended that you chanfer the inner edge of the tubing that is going into the Tensioner Mount with an Xacto knife or drill bit.  Also, depending on print quality you may want/need to clean up the filament path hole in the Tensioner Mount with a 1.75-2mm drill bit.
+   - 4.6 Insert a section of bowden tube into the ECAS until it bottoms out/butts against the Tensioner Mnt behind the ECAS.  Place a locking clip in the ECAS (if you don't have these, an stl file is provided to print the locking clips).  2.5mm ID tubing is recommended to ensure good stiffness and minimal "buckling" of filament in the driven filament path.  Cut your section of tubing a little long for the location of the rewinder and the run to the ERCF slot position.  You can fine tune/trim the length after installation of the rewinder.  
+# It is recommended that you chamfer the inner edge of the tubing that is going into the Tensioner Mount with an Xacto knife or drill bit to ensure easy filament loading.  Also, depending on print quality you may want/need to clean up the filament path hole in the Tensioner Mount with a 1.75-2mm drill bit.
 
 
 # Tuning
 
-The only tuning the system requires is Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs buffer drag and set a slip range in-between the two "imaginary" lines.  Adjust the spring tensioner screw accordingly and err on the light side.  Run the buffer (see test code below). If loose filament is forming around the filament spool during unload, tighten the spring tensioning screw.  If no loose filament is forming around the filament roll, gradually reduce the spring tension until loose filament starts to accumulate and then increase tension in ~1/2 screw turn increments until you feel you have the lightest tension that results in a tightly packed unload.
+The standard recommended method for tuning the system is with the Tensioner Arm clamping force.  The arm does not need an extreme amount of tension.  To tune the spring force, lift the tensioner and insert a section of filament through the o-ring bearing interface and into the bowden tube.  Hold the center roller by placing your thumb against the o-rings and try to pull the filament out.  You want the slip force to be slightly more than what the overall system drag is, so you have to imagine the range of gear motor pull force vs rewinder drag and set a slip range in-between the two "imaginary" lines.  Adjust the spring tensioner screw accordingly and err on the light side.  Run the rewinder (see test code below). If loose filament is forming around the filament spool during unload, tighten the spring tensioning screw.  If no loose filament is forming around the filament roll, gradually reduce the spring tension until loose filament starts to accumulate and then increase tension in ~1/2 screw turn increments until you feel you have the lightest tension that results in a tightly packed unload. This method will result in the ultimate wear-out of the o-rings.  Testing and extrapolation estimates that the wear-out point is ~4K cycles +/- 1K.  The impact of o-ring wear-out can be reduced by periodically swapping highly used rewinders with low use rewinders.  Ultimately o-rings can be replaced by the process described in section 3.2 of the Drive Roller Assembly section. 
+
+An alternate method is to rely on spool rim slip against the rollers by running a high filament clamping force and selecting a rim surface other than the high friction rubber bands such as a soft PVC tape (electrical or gym floor line tape).  You will have to experiment with what works best for you, particularly on almost empty spools of low weight, and/or reach out to the Filamentalest Discord group for input (https://discord.com/channels/1208529298781372447/1208529299230031883).
 
 
 # Testing
 
-Below are macros you can cut and paste into the bottom of your mmu_software.cfg to test and tune your buffers.
+Below are macros you can cut and paste into the bottom of your mmu_software.cfg or printer.cfg to test and tune your rewinders.
 
-Happy multi-material printing and buffering!
-
-Single rewinder test macro:
+Happy multi-material printing and rewindering!
 
 ```[gcode_macro rewinder_test]
 gcode:
-
-    {% set gate = params.TESTGATE | default(0) | int %}
-    {% set repeats = params.REPEATS | default(20) | int %}
-    {% set length = params.LENGTH | default(800) | float %}
-    {% set speed = params.SPEED | default(300) | float %}
-    {% set accel = params.ACCEL | default(400) | float %}
-
-    MMU_HOME TOOL={gate}
-
     MMU_TEST_LOAD LENGTH=50
-    {% for n in range(repeats) %}
+    {% for n in range(20) %}
 
+# cycles currently set at 20, i.e. range(20).  You can changes this however you chose.
         MMU_SERVO POS=DOWN
-
-            MMU_SELECT GATE={gate}
-            MMU_TEST_LOAD LENGTH={test_load_length} # preload gate for a bit of length
-            MMU_TEST_MOVE SPEED={speed} ACCEL={accel} MOVE={length}
-            MMU_TEST_MOVE SPEED={speed} ACCEL={accel} MOVE=-{length}
-            MMU_SERVO POS=UP
+#        MANUAL_STEPPER STEPPER="gear_stepper" SPEED=300 ACCEL=400 MOVE=800
+        MMU_TEST_MOVE SPEED=300 ACCEL=400 MOVE=800
+# change the SPEED and ACCEL as you see fit
+        MMU_SERVO POS=UP
+# to stop a macro mid-cycle you must use the e-stop.  This dwell allows you to hit the e-stop while the servo is up so that you can pull the filament out of the ERCF while the printer/macro is stopped
+        MMU_SERVO POS=DOWN
+        MMU_TEST_MOVE SPEED=300 ACCEL=400 MOVE=-800
+        MMU_SERVO POS=UP
 
     {% endfor %}
 
-    MMU_HOME```
 
-Test Macro for cycling through multiple rewinders:
-
-```[gcode_macro rewinder_test_multitool]
+[gcode_macro rewinder_test_multitool]
 gcode:
     {% set gates = [5] %} # [0,1,2,3,4,5] move between these gates
     {% set test_load_length = params.TEST_LOAD_LENGTH | default(50) | float %}
@@ -208,4 +196,43 @@ gcode:
         {% endfor %}
   
     {% endfor %}
+
+
+
+[gcode_macro rewinder_test_with_cut]
+gcode:
+    {% set gate = params.GATE | default(5) | int %}
+    {% set extrude_length = params.EXTRUDE_LENGTH | default(10) | float %}
+    {% set repeats = params.REPEATS | default(1) | int %}
+    {% set single_cycle_repeats = params.SINGLE_CYCLE_REPEATS | default(0) | int %}
+    {% set single_cycle_test_length = params.SINGLE_CYCLE_TEST_LENGTH | default(500) | float %}
+    {% set test_load_length = params.TEST_LOAD_LENGTH | default(50) | float %}
+    SAVE_GCODE_STATE NAME=rewinder_test_with_cut_state
+    MMU_SELECT GATE={params.GATE}
+    M83
+    {% for i in range(repeats) %}
+        RESPOND MSG="cycle {i} / {repeats}..."
+        {% for j in range(single_cycle_repeats) %}
+            MMU_TEST_LOAD LENGTH={test_load_length} # preload gate for a bit of length
+#            _ensure_filament_state STATE="Loaded"
+            MMU_TEST_MOVE SPEED={300} ACCEL={400} MOVE={single_cycle_test_length}
+            MMU_SERVO POS=UP
+            MMU_TEST_MOVE SPEED={300} ACCEL={400} MOVE=-{single_cycle_test_length}
+            MMU_EJECT
+#            _ensure_filament_state STATE="Unloaded"
+            MMU_RECOVER
+        {% endfor %}
+        T{gate}
+#        _ensure_filament_state STATE="Loaded"
+        G1 E{extrude_length} F1000
+        MMU_EJECT
+#        _ensure_filament_state STATE="Unloaded"
+    {% endfor %}
+    RESTORE_GCODE_STATE NAME=rewinder_test_with_cut_state
+
+[gcode_macro _ensure_filament_state]
+gcode: 
+    {% if printer.mmu.filament != params.STATE %}
+        { action_raise_error( 'MMU operation failed; aborted' ) }
+    {% endif %}
 ```
