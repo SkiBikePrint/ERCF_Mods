@@ -17,7 +17,7 @@ To Do:
 
 <h1 align="center">The "Filamentalist"</h1>
 
-# An "analog" passive filament driven buffer project currently in Beta build/testing by an elite team of MMU buffering experts.
+<h1 align="center">A passive filament driven rewinder/buffer</h1>
 
 <p align="center">
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/29681c81d6f0a38790b672aa099865cbd5e38a43/Filamentalist/Images/Filamentalist.png" width="375" height="525">
@@ -76,9 +76,9 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 | 1       | Rim Roller Hub (Threaded) | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Rim%20Roller%20Hub%20(Threaded).jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, recommend scattered seams for improved thread perfromance |
 | 1       | Center Drive Roller  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Center%20Drive%20Roller.jpg" width="40" height="40">                                                        | Horizontal                 | N        | Recommend scattered seams for press fit-bore concentricity |
 | 2       | Center Drive Roller Spacer |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Center%20Drive%20Roller%20Spacer.jpg" width="40" height="40">    | Horizontal                 | N        |                             |
-|         | Tensioner Arm Left |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Tensioner%20Arm%20Left_1.jpg" width="40" height="40"> | Horizontal                          |        |  |
-|         | Tensioner Arm Right |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Tensioner%20Arm%20Right_1.jpg" width="40" height="40"> | Horizontal                          |        |  |
-| 1       | Tensioner Mnt | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Mnt.jpg" width="40" height="40">                           | Vertical (as installed)                |   |   |
+|         | Tensioner Arm Left |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Tensioner%20Arm%20Left_1.jpg" width="40" height="40"> | Horizontal                          |  N    |  |
+|         | Tensioner Arm Right |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Tensioner%20Arm%20Right_1.jpg" width="40" height="40"> | Horizontal                          |  N     |  |
+| 1       | Tensioner Mnt | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Mnt.jpg" width="40" height="40">                           | Vertical (as installed)                | N  |   |
 | 1       | Idler Roller (male)   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Idler%20Roller%20(male).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
 | 1       | Idler Roller (female)   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Idler%20Roller%20(female).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
 | 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertical | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple buffers. |
@@ -102,15 +102,15 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/b3865d1dce459810b443cc16736aa5070a433a71/Filamentalist/Images/Tensioner_Assy.jpg" width="400" height="350">
 
-   - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into postion making sure the triangular indexing peg seats correctly at the bottom of the arm (light hammer taps with a tiny hammer may be required to seat).
+   - 2.1 Lay the Tensioner Arm Right part on a flat surface.  Slide the 608 bearing onto the bearing post.  Place the Tensioner Arm Left part into the 608 bearing and rotate against the Tensioner Arm Right part making sure the alignment tab seats correctly at into the pocket at the bottom of the Tensioner Arm Right part.
    - 2.2 Place a 3x18 FHCS (or x16, x12) through the bearing mount hole of the Tensioner Arm Left part and moderately tighten the screw into the Tensioner Arm right piece.  Once installed verify that the bearing turns freely.
    - 2.3 Place a 3x18 FHCS (or x16, x12) through the hole in the Tensioner Arm Left part at the "nose" end and moderately tighten the screw into the Tensioner Arm right piece.  
    - 2.4 Install the Tensioner Arm onto the Tensioner Mnt using a 3x18mm FHCS screw (or x16) .  Tighten until snug and then back off until the arm rotates freely on the mount.
-   - 2.5 Place an M3 washer followed by the spring onto an M3x35 SHCS (or x30, x40) and slide through the hole in the bottom of the arm assembly.  Screw the SHCS into the heatset insert of the Tensioner Mnt.  No tension should be on the spring at this point.
+   - 2.5 Place an M3 washer followed by the spring onto an M3x35 SHCS (or x30, x40) and slide through the slotted hole in the bottom of the arm assembly.  Screw the SHCS into the heatset insert of the Tensioner Mnt.  No tension should be on the spring at this point.
 
 # 3. Drive Roller Assembly
 
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f54f216b3775447bf40aa44d1984c6e510ab18f7/Filamentalist/Images/Drive%20Roller%20Assembly.jpg" width="400" height="400">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/9b481e0259072b8aa57caede1a9d5bdf013a10a1/Filamentalist/Images/Drive%20Roller%20Assembly_1.jpg" width="550" height="400">
 
 - 3.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
 - 3.2 Insert the Rim Roller Splined Hub part into the Rim Roller Splined part until they are flush with each other.  You may need to place them on a hard surface and give it a little hit to pop in flush.  Place the roller onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Roller assembly until the shaft bottoms-out on the pocket in the Axle Pressing Tool.  If tapping the shaft in, you will hear when the shaft reaches the floor of the Axle Pressing Tool.
