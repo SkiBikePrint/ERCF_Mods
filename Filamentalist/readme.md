@@ -17,13 +17,10 @@ To Do:
 
 <h1 align="center">The "Filamentalist"</h1>
 
-
-#  In Beta Testing
-
 # An "analog" passive filament driven buffer project currently in Beta build/testing by an elite team of MMU buffering experts.
 
 <p align="center">
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91a91edf711fef61f6d5f5e6cde604b599f564d3/Filamentalist/Images/Filamentalist1.jpg" width="250" height="400">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/29681c81d6f0a38790b672aa099865cbd5e38a43/Filamentalist/Images/Filamentalist.png" width="375" height="525">
 </p>
 
 See video of 3 buffers swapping here:  https://photos.app.goo.gl/iyLBGgytfVCPNLVBA
@@ -32,7 +29,7 @@ See video of 3 buffers swapping here:  https://photos.app.goo.gl/iyLBGgytfVCPNLV
 The Filamentalist uses the axial force delivered by the ERCF gear motor along the filament to load and unload to/from the filament spool.  An adjustable spring clamp forces the filament against two o-rings that sit on the drive pulley to create a high traction interface.  A one-way clutch style bearing locks against the drive shaft and rotates the filament spool to take up filament during an unload.  For loading and print extruding, the clutch disengages allowing for effective free-spooling of the filament spool simliar to a roller style spool holder.  For unloading/buffering, some slip will occur between the filament and the o-ring interface and/or the spool rim and the rim roller of the buffer to account for the varying diameter range of a spool from full to empty (full spool = max slip, empty spool = no/minimal slip).
 
 <p align="center">
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/1798f91db1e9171a195a754c68675f0b5da8bcaf/Filamentalist/Images/Filamentalist6.jpg" width="300" height="400">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Filamentalist6_1.jpg" width="400" height="465">
 </p>
 
 ## **BOM:**
@@ -66,7 +63,7 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 ## **Part Specific:**
 - Orientation suggestions are relative to the installed assembly orientation and are shown in the slicer images below.
   
-<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/91a91edf711fef61f6d5f5e6cde604b599f564d3/Filamentalist/Images/Filamentalist1.jpg" width="125" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Black).jpg" width="250" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2280388ff64afb17f64c013231463de9fa64cc20/Filamentalist/Images/Filamentalist%20Sliced%20(Orange).jpg" width="250" height="200">
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/29681c81d6f0a38790b672aa099865cbd5e38a43/Filamentalist/Images/Filamentalist.png" width="125" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Filamentalist%20Sliced%20(Black)_1.jpg" width="250" height="200">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Filamentalist%20Sliced%20(Orange)_1.jpg" width="250" height="200">
 
 
 | **Qty per Site** | **Part**  | **Pic** |  **Orientation**            | **Printed Supports Needed** | **Comments** |
@@ -74,18 +71,21 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 | 1       | Right Support | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Right%20Support.jpg" width="40" height="40"> |  Horizontal                   | N     |                                  |
 | 1       | Left Support | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Left%20Support.jpg" width="40" height="40">                                                            | Horizontal                   | N     |                                  |
 | 1       | Rear Roller Axle  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rear%20Roller%20Axle.jpg" width="40" height="40"> | Horizontal | N | align flat of "D" to build plate |
-| 1       | Rim Roller | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rim%20Roller.jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, scattered seams for press-fit bore     |
-| 1       | Center Drive Roller  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Center%20Drive%20Roller.jpg" width="40" height="40">                                                        | Horizontal                 | N        | Scattered seams for press fit-bore                              |
-| 2       | Center Drive Roller Spacer |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Center%20Drive%20Roller%20Spacer.jpg" width="40" height="40">    | Horizontal                 | N        | Scattered seams                               |
-|         | Tensioner Arm Left |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Arm%20Left.jpg" width="40" height="40"> | Horizontal                          |        |  |
-|         | Tensioner Arm Right |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Arm%20Right.jpg" width="40" height="40"> | Horizontal                          |        |  |
+| 1       | Rim Roller | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rim%20Roller.jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up     |
+| 1       | Rim Roller (Threaded) | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Rim%20Roller%20(Threaded).jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, recommend scattered seams for improved thread perfromance |
+| 1       | Rim Roller Hub (Threaded) | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Rim%20Roller%20Hub%20(Threaded).jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, recommend scattered seams for improved thread perfromance |
+| 1       | Center Drive Roller  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Center%20Drive%20Roller.jpg" width="40" height="40">                                                        | Horizontal                 | N        | Recommend scattered seams for press fit-bore concentricity |
+| 2       | Center Drive Roller Spacer |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Center%20Drive%20Roller%20Spacer.jpg" width="40" height="40">    | Horizontal                 | N        |                             |
+|         | Tensioner Arm Left |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Tensioner%20Arm%20Left_1.jpg" width="40" height="40"> | Horizontal                          |        |  |
+|         | Tensioner Arm Right |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Tensioner%20Arm%20Right_1.jpg" width="40" height="40"> | Horizontal                          |        |  |
 | 1       | Tensioner Mnt | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Tensioner%20Mnt.jpg" width="40" height="40">                           | Vertical (as installed)                |   |   |
-| 1       | Rear Roller   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Rear%20Roller.jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
-| 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertial | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple buffers. |
+| 1       | Idler Roller (male)   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Idler%20Roller%20(male).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
+| 1       | Idler Roller (female)   | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2173eeed7a371bd58314c6460d6b38eb1fc87574/Filamentalist/Images/Idler%20Roller%20(female).jpg" width="40" height="40">  | Vertical  | N  |  Scattered seams |
+| 1    | Axle Pressing Tool | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Axle%20Pressing%20Tool.jpg" width="40" height="40"> | Vertical | N | Pocket opening up.  Print with 100% infill for reuse strength and durability when building multiple buffers. |
 | 2 | ECAS Locking Clip | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6837e24c214d6256fef5f5dbc52ac9dc8a1a9989/Filamentalist/Images/ECAS%20Locking%20Clip.jpg" width="40" height="40"> |  Horizontal | N | Tab up |
 
 
-There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version.  Assembly is the same.
+There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version (see "Clip Mount Base Version" folder under STL's directory.  Assembly is the same.
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f96422acb504d4f098fd575ae8534f495f92b699/Filamentalist/Images/Clip%20Mount%20Version.jpg" width="400" height="250">
 
