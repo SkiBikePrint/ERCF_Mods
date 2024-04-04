@@ -68,7 +68,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 | 1       | Base | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/a88c2c8f885684abdce5d5ff6f18d316faf91c62/Filamentalist/Images/Base.jpg" width="40" height="40">                                                            | Horizontal                   | N     | Optional part for a standalone unit not mounted to another surface  |
 | 1       | Rear Roller Axle  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rear%20Roller%20Axle.jpg" width="40" height="40"> | Horizontal | N | align flat of "D" to build plate |
 | 1       | Rim Roller | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Rim%20Roller.jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up     |
-| 1       | Rim Roller (Threaded) | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Rim%20Roller%20(Threaded).jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, recommend scattered seams for improved thread perfromance |
+| 1       | Rim Roller (Threaded) | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Rim%20Roller%20(Threaded).jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, recommend scattered seams for improved thread perfromance, clean out support web in center splined hole with Xacto knife |
 | 1       | Rim Roller Hub (Threaded) | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/85a541f5e7ae803522ccf610f52861cce66e0702/Filamentalist/Images/Rim%20Roller%20Hub%20(Threaded).jpg" width="40" height="40">                                                   | Horizontal                | N       | Dished side up, recommend scattered seams for improved thread perfromance |
 | 1       | Center Drive Roller  | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/cab2ddf8149339b31714dbadca2cb36611d397f7/Filamentalist/Images/Center%20Drive%20Roller.jpg" width="40" height="40">                                                        | Horizontal                 | N        | Recommend scattered seams for press fit-bore concentricity |
 | 2       | Center Drive Roller Spacer |  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/26900c9dafbd97ff7940f59e07de3eca9dee5aee/Filamentalist/Images/Center%20Drive%20Roller%20Spacer.jpg" width="40" height="40">    | Horizontal                 | N        |                             |
@@ -109,7 +109,8 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/2f235409913aefef5219e5df66e258a4124f445c/Filamentalist/Images/Center%20Drive%20Roller%20with%201-Way%20Bearing.jpg" width="300" height="300">  <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/98160e0638612f0d6ec1bac0d75c2d922c8fa904/Filamentalist/Images/Drive%20Roller%20Assembly_1.jpg" width="650" height="400">
 
 - 3.1 Press HF081412 One-Way Bearing into Center Drive Roller.  Orientation does not matter at this point.
-- 3.2 Screw the Rim Roller Hub (Threaded) part into the Rim Roller (Threaded) part until they are flush with each other.  You may need to use a tool like a flat bladed screwdriver inserted into the hub splines for initial threading.  If threading is excessively tight, thread the hub in and out of the roller multiple times blowing our any debris until there is only light-to-moderate resistance on the threads and then screw the Rim Roller tightly onto the Hub.  Place the roller onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Roller assembly until the shaft bottoms-out on the pocket in the Axle Pressing Tool.  If tapping the shaft in, you will hear a change in the pitch of the "thud" when the shaft reaches the floor of the Axle Pressing Tool.
+- 3.2 The Rim Roller (Threaded) part has a support web that spans the splined press-fit hole to aid in overhang print quality.  Clean out this web an Xacto knife (or equivalent).
+- 3.3 Screw the Rim Roller Hub (Threaded) part into the Rim Roller (Threaded) part until they are flush with each other.  You may need to use a tool like a flat bladed screwdriver inserted into the hub splines for initial threading.  If threading is excessively tight, thread the hub in and out of the roller multiple times blowing out any debris until there is only light-to-moderate resistance on the threads and then screw the Rim Roller tightly onto the Hub.  You want the resistance of the threads to be less than the resistance of the press-fit of the hub against the shaft so that the roller can be removed from the hub later as needed.  Place the roller onto the Axle Pressing Tool as shown in picture.  Press or gently tap with hammer to drive the 8x80mm axle shaft through the Roller assembly until the shaft bottoms-out on the pocket in the Axle Pressing Tool.  If tapping the shaft in, you will hear a change in the pitch of the "thud" when the shaft reaches the floor of the Axle Pressing Tool.
 
 The purpose of this two-piece roller is to allow for future o-ring replacement by removing the Rim Roller from the Hub versus having to press a roller off of the axle and then press it back on.  For o-ring replacement, remove the Drive Roller Assembly from the rewinder (unscrew the (6) screws of the Right and Left Supports).  Then unscrew the Rim Roller from the Rim Roller Hub.  You can now remove the old o-rings and install a pair of new ones, screw the Rim Roller back onto the Hub, and re-install the supports.
 
@@ -200,43 +201,4 @@ gcode:
         {% endfor %}
   
     {% endfor %}
-
-
-
-[gcode_macro rewinder_test_with_cut]
-gcode:
-    {% set gate = params.GATE | default(5) | int %}
-    {% set extrude_length = params.EXTRUDE_LENGTH | default(10) | float %}
-    {% set repeats = params.REPEATS | default(1) | int %}
-    {% set single_cycle_repeats = params.SINGLE_CYCLE_REPEATS | default(0) | int %}
-    {% set single_cycle_test_length = params.SINGLE_CYCLE_TEST_LENGTH | default(500) | float %}
-    {% set test_load_length = params.TEST_LOAD_LENGTH | default(50) | float %}
-    SAVE_GCODE_STATE NAME=rewinder_test_with_cut_state
-    MMU_SELECT GATE={params.GATE}
-    M83
-    {% for i in range(repeats) %}
-        RESPOND MSG="cycle {i} / {repeats}..."
-        {% for j in range(single_cycle_repeats) %}
-            MMU_TEST_LOAD LENGTH={test_load_length} # preload gate for a bit of length
-#            _ensure_filament_state STATE="Loaded"
-            MMU_TEST_MOVE SPEED={300} ACCEL={400} MOVE={single_cycle_test_length}
-            MMU_SERVO POS=UP
-            MMU_TEST_MOVE SPEED={300} ACCEL={400} MOVE=-{single_cycle_test_length}
-            MMU_EJECT
-#            _ensure_filament_state STATE="Unloaded"
-            MMU_RECOVER
-        {% endfor %}
-        T{gate}
-#        _ensure_filament_state STATE="Loaded"
-        G1 E{extrude_length} F1000
-        MMU_EJECT
-#        _ensure_filament_state STATE="Unloaded"
-    {% endfor %}
-    RESTORE_GCODE_STATE NAME=rewinder_test_with_cut_state
-
-[gcode_macro _ensure_filament_state]
-gcode: 
-    {% if printer.mmu.filament != params.STATE %}
-        { action_raise_error( 'MMU operation failed; aborted' ) }
-    {% endif %}
 ```
