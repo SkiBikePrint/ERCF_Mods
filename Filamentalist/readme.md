@@ -18,6 +18,9 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Filamentalist6_1.jpg" width="400" height="465">
 </p>
 
+# Credits:
+Discord user Thisiscam first made me aware of Muzi Xiaoyang's video of a filament driven rewinder (https://www.bilibili.com/video/BV1ZM41197fX/?spm_id_from=333.337.search-card.all.click).  Through a long collaboration with Thisiscam, many design iterations and improvement on the Muzi Xiaoyang design, and a great Beta test team the Filamentalist was born. 
+
 ## **Additional Notes/Considerations** 
 
 This rewinder is "almost" perfect, but not completely perfect.  Things that you need to know include:
