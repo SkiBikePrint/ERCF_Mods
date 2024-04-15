@@ -1,3 +1,6 @@
+# Changes and Improvements
+
+- Use M3 insert nut and add 623 bearing(2ea)
 
 - The fixing method of the front wheel has been changed from press fit to bolt method for disassembly/assembly.
 Improved convenience
@@ -9,6 +12,8 @@ Improved convenience
 - Hole on the front to check the condition of the O-ring
 
 - Can be replaced with wider wheels to accommodate wider spools (Wheels of various widths, fixed and released with 2 bolts)
+
+- The spring will be used for a ballpoint pen.
 
 ![image](https://github.com/v6cl/Filamentalist_Mods/assets/16078263/146c3f41-5227-4420-bd97-01c199462e40)
 
