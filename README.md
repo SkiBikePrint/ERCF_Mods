@@ -1,3 +1,6 @@
+> [!WARNING]
+> work in progress. There has not been sufficient verification of the changed model.
+
 # forked from SkiBikePrint/ERCF_Mods
 
 (https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist)
