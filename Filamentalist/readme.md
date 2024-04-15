@@ -1,3 +1,6 @@
+# Changes and Improvements
+
+- Use M3 insert nut and add 623 bearing(2ea)
 
 - The fixing method of the front wheel has been changed from press fit to bolt method for disassembly/assembly.
 Improved convenience
