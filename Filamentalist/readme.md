@@ -12,3 +12,9 @@ Improved convenience
 - Hole on the front to check the condition of the O-ring
 
 - Can be replaced with wider wheels to accommodate wider spools (Wheels of various widths, fixed and released with 2 bolts)
+
+![image](https://github.com/v6cl/Filamentalist_Mods/assets/16078263/7ff9b36a-fe77-4eb4-95d5-1644e0794b8c)
+
+![image](https://github.com/v6cl/Filamentalist_Mods/assets/16078263/d86f995b-b98c-4147-bb76-498b45504d8c)
+
+![image](https://github.com/v6cl/Filamentalist_Mods/assets/16078263/51d31d76-47e2-44dd-a50c-de8a2f97c990)
