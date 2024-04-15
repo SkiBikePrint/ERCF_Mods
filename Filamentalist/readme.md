@@ -15,7 +15,7 @@ Improved convenience
 
 - Can be replaced with wider wheels to accommodate wider spools (Wheels of various widths, fixed and released with 2 bolts)
 
-- The spring will be used for a ballpoint pen.
+- It uses the spring used in a typical ballpoint pen.
 
 ![image](https://github.com/v6cl/Filamentalist_Mods/assets/16078263/146c3f41-5227-4420-bd97-01c199462e40)
 
