@@ -38,7 +38,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 |   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  | MR608RS, MR608ZZ, etc. |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS, Aliexpress | 8mm Bore, 12mm length, 14.2mm Diameter. |
 |   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | A locking clip is required and can be bought or printed (stl included) |
-|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD, Nitrile Butadiene Rubber (Buna-N)|
+|   2   | O-rings | Home Depot #110, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | In the range of 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD, Nitrile Butadiene Rubber (Buna-N)|
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/, Aliexpress | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
 |   1 | 3mm Heatset  |  | Voron standard size | set into the Tensioner Mnt |
 |   1   | 3x35mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw anything in the range of 35mm +/- 10mm should work|
@@ -95,7 +95,8 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/662caf6e50f499b8f42359d868c06f1419f9e44f/Filamentalist/Images/Tensioner_Mnt.jpg" width="400" height="350">
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
-   - 1.2 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using the end of a 8mm steel shaft or printed rear axle shaft to get it to sit flush to the Tensioner Mnt mating surface.
+   - 1.2 Remove the rubber seal from the ECAS fitting.
+   - 1.3 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using the end of a 8mm steel shaft or printed rear axle shaft to get it to sit flush to the Tensioner Mnt mating surface.  The sidewalls of this hole are relatively thin.  Varying ECAS and print tolerances could result in the sidewall cracking.  If this happens, use superglue around the ECAS and crack.
 
 # 2. Tensioner Arm Installation
 
