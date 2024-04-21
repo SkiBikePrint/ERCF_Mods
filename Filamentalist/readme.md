@@ -18,14 +18,17 @@ The Filamentalist uses the axial force delivered by the ERCF gear motor along th
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/95bce4ba5cba58311181e91b689964c466b30c51/Filamentalist/Images/Filamentalist6_1.jpg" width="400" height="465">
 </p>
 
+# Credits:
+Discord user Thisiscam first made me aware of Muzi Xiaoyang's video of a filament driven rewinder (https://www.bilibili.com/video/BV1ZM41197fX/?spm_id_from=333.337.search-card.all.click).  Through a long collaboration with Thisiscam, many design iterations and improvement on the Muzi Xiaoyang design, and a great Beta test team the Filamentalist was born. 
+
 ## **Additional Notes/Considerations** 
 
 This rewinder is "almost" perfect, but not completely perfect.  Things that you need to know include:
 1. The ERCF gear stepper is doing the heavy lifting.  Configure your gear stepper to run in sync mode with your extruder via Happy Hare settings.
 2. A high torque NEMA 17 motor is recommended.  Many in the Beta team ran NEMA 17's spec'd at 55 N-cm max torque and config'd them for 1-1.4A.  Grafton's 40 tooth NEMA 17 mod is recommended (https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction).  This may not be required so if you already have built your ERCF, try the Filamentalist with the motor you have and decide if you think you need more torque.
 3. Several in the Beta team had space constraints that they wanted the rewinder to honor.  As a result the width of the Filamentalist was set to support most standard 1, 0.5, and 0.25KG spool sizes and still be able to fit 6 rewinders across a 350 size Voron printer.  Some spools such as KVP's are too wide to fit the baseline design.  It's a simple design so feel free to usermod to your heart's content to fit your needs!  Height was set to be as low as possible to fit some existing dry box designs.
-4. Because the standard tuning of this design relies on some filament slip at the o-rings, the o-rings will ultimately wear-out.  Testing and extrapolation estimates that the wear-out point is ~4K cycles +/- 1K.  The impact of o-ring wear-out can be reduced by periodically swapping highly used rewinders with low use rewinders in your line-up.  Ultimately o-rings can be replaced by the process described in section 3.2 of the Drive Roller Assembly section. This o-ring slip/wear also creates a small amount of rubber dust/debris to go along with the typical filament dust /debris that the ERCF gears create.  You may want to add a filament cleaner of your choice (but don't have to).
-5. Questions and input can be directed to the Filamentalist Discord group here:  (https://discord.com/channels/1208529298781372447/1208529299230031883)
+4. Because the standard tuning of this design relies on some filament slip at the o-rings, the o-rings will ultimately wear-out.  Testing and extrapolation estimates that the wear-out point is ~4K cycles +/- 1K.  The impact of o-ring wear-out can be reduced by periodically swapping highly used rewinders with low use rewinders in your line-up.  Also, o-rings with grooves worn in them can be swapped with their opposing partners to present the unworn side/face to the filament to extend the life of a set.  Ultimately o-rings can be replaced by the process described in section 3.2 of the Drive Roller Assembly section. This o-ring slip/wear also creates a small amount of rubber dust/debris to go along with the typical filament dust /debris that the ERCF gears create.  You may want to add a filament cleaner of your choice (but don't have to).
+5. Questions and input can be directed to the Filamentalist Discord group here:  (https://discord.com/invite/H9yuhrXTEq)
 
 ## **BOM:**
 
@@ -35,7 +38,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 |   5   | MR608 bearings | Can be obtained anywhere (Home Depot, Amazon, Aliexpress, etc.)  | MR608RS, MR608ZZ, etc. |
 |   1   | HF081412 One-Way Bearing | https://www.amazon.com/dp/B0C7TRFJBS, Aliexpress | 8mm Bore, 12mm length, 14.2mm Diameter. |
 |   1   | ECAS press-in pneumatic fittings for the bowden tubes (like used in ERCF)  |  | A locking clip is required and can be bought or printed (stl included) |
-|   2   | #110 O-rings | Home Depot, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD, Nitrile Butadiene Rubber (Buna-N)|
+|   2   | O-rings | Home Depot #110, https://www.amazon.com/211-Buna-N-Ring-Durometer-Black/dp/B000FN0W7I/, Aliexpress | In the range of 13/16" ID, 1-1/16" OD or 20mm ID, 27mm OD, Nitrile Butadiene Rubber (Buna-N)|
 |   1   | Spring  | https://www.amazon.com/gp/product/B08FDYJLYC/, Aliexpress | Like in extruders - 304 Stainless Steel,6mm OD,1mm Wire Size,7.5mm Compressed Length,15mm Free Length,37.2N Load Capacity |                                 |
 |   1 | 3mm Heatset  |  | Voron standard size | set into the Tensioner Mnt |
 |   1   | 3x35mm SHCS | SS Socket Head Cap Screw | Spring Tensioner Screw anything in the range of 35mm +/- 10mm should work|
@@ -92,7 +95,8 @@ There is an alternate version of the base that clips into two 2020 rails spaced 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/662caf6e50f499b8f42359d868c06f1419f9e44f/Filamentalist/Images/Tensioner_Mnt.jpg" width="400" height="350">
 
    - 1.1 Install 3mm heatset insert into Tensioner Mnt.
-   - 1.2 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using the end of a 8mm steel shaft or printed rear axle shaft to get it to sit flush to the Tensioner Mnt mating surface.
+   - 1.2 Remove the rubber seal from the ECAS fitting.
+   - 1.3 Install the ECAS fitting into the Tensioner Mnt.  It should be a moderate press-in.  You may need to push it in firmly using the end of a 8mm steel shaft or printed rear axle shaft to get it to sit flush to the Tensioner Mnt mating surface.  The sidewalls of this hole are relatively thin.  Varying ECAS and print tolerances could result in the sidewall cracking.  If this happens, use superglue around the ECAS and crack.
 
 # 2. Tensioner Arm Installation
 
