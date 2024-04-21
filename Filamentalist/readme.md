@@ -28,7 +28,8 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 2. A high torque NEMA 17 motor is recommended.  Many in the Beta team ran NEMA 17's spec'd at 55 N-cm max torque and config'd them for 1-1.4A.  Grafton's 40 tooth NEMA 17 mod is recommended (https://www.printables.com/model/692720-ercf-40-tooth-gear-modifiction).  This may not be required so if you already have built your ERCF, try the Filamentalist with the motor you have and decide if you think you need more torque.
 3. Several in the Beta team had space constraints that they wanted the rewinder to honor.  As a result the width of the Filamentalist was set to support most standard 1, 0.5, and 0.25KG spool sizes and still be able to fit 6 rewinders across a 350 size Voron printer.  Some spools such as KVP's are too wide to fit the baseline design.  It's a simple design so feel free to usermod to your heart's content to fit your needs!  Height was set to be as low as possible to fit some existing dry box designs.
 4. Because the standard tuning of this design relies on some filament slip at the o-rings, the o-rings will ultimately wear-out.  Testing and extrapolation estimates that the wear-out point is ~4K cycles +/- 1K.  The impact of o-ring wear-out can be reduced by periodically swapping highly used rewinders with low use rewinders in your line-up.  Also, o-rings with grooves worn in them can be swapped with their opposing partners to present the unworn side/face to the filament to extend the life of a set.  Ultimately o-rings can be replaced by the process described in section 3.2 of the Drive Roller Assembly section. This o-ring slip/wear also creates a small amount of rubber dust/debris to go along with the typical filament dust /debris that the ERCF gears create.  You may want to add a filament cleaner of your choice (but don't have to).
-5. Questions and input can be directed to the Filamentalist Discord group here:  (https://discord.com/invite/H9yuhrXTEq)
+5. Due to pressfits for the 608 bearings, 8mm axle, and ECAS, printer calibration is important.  A "Test Block" stl is included.  It is recommended you print this first and test the press fits and measure the two small holes (2.7mm for cutting 3mm screw threads and 2.3mm for the filament path) to determine if you need to apply any scaling or changes to your extrusion factors in your slicer before printing.
+6. Questions and input can be directed to the Filamentalist Discord group here:  (https://discord.com/invite/H9yuhrXTEq)
 
 ## **BOM:**
 
@@ -84,7 +85,7 @@ This rewinder is "almost" perfect, but not completely perfect.  Things that you 
 | 2 | ECAS Locking Clip | <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/6837e24c214d6256fef5f5dbc52ac9dc8a1a9989/Filamentalist/Images/ECAS%20Locking%20Clip.jpg" width="40" height="40"> |  Horizontal | N | Tab up |
 
 
-There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It is highly recommended and enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version (see "Clip Mount Base Version" folder under STL's directory.  Assembly is the same.
+There is an alternate version of the base that clips into two 2020 rails spaced 170mm apart (center-to-center). It is highly recommended and enables quick add/remove/relocate capabilities and requires no hardware to mount.  You print all of the same parts except for the 2 Base Supports that use the clip mount version (see "Clip Mount Base Version" folder under STL's directory).  Assembly is the same.
 
 <img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f96422acb504d4f098fd575ae8534f495f92b699/Filamentalist/Images/Clip%20Mount%20Version.jpg" width="400" height="250">
 
@@ -206,3 +207,12 @@ gcode:
   
     {% endfor %}
 ```
+
+# Version History
+
+V2 - Public release
+
+V2.1
+- Added material around ECAS on Tensioner Mnt to reduce potential for cracking
+- Revised Tensioner ARM Left/Right to create clearance for wider Tensioner Mnt
+- Added Test Block.stl to check printing tolerances for 608 Bearing, 8mm Axle, and ECAS press fits as well as holes for 3mm screw thread cutting and 2.3mm filament hole.
