@@ -162,7 +162,8 @@ Below are macros you can cut and paste into the bottom of your mmu_software.cfg 
 
 Happy multi-material printing and rewindering!
 
-```[gcode_macro rewinder_test]
+```
+[gcode_macro rewinder_test]
 gcode:
     MMU_TEST_LOAD LENGTH=50
     {% for n in range(20) %}
