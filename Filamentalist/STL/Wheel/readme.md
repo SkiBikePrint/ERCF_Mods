@@ -1,11 +1,1 @@
-Wheel	Maximum spool width
-
-12mm	64mm
-
-15mm	70mm
-
-18mm	76mm
-
-23mm	86mm
-
-28mm	96mm
+![image](https://github.com/v6cl/Filamentalist_Mods/assets/16078263/6ee8d601-d458-4ae7-b71a-f1bd989b2cd2)
