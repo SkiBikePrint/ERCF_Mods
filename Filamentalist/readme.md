@@ -3,6 +3,7 @@ forked from (https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist)
 # BOM
 
 - 608 Bearing x 5
+- HF081412 One-Way Bearing
 - Rubber O - ring ID ~20mm , OD ~26mm AN-211
 - 623 Bearing x 2 (Optional)
 - ECAS04
