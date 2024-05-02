@@ -13,7 +13,7 @@ forked from (https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist)
 - M3 Socket head bolts
 - M3 Flat head bolts
 - silicone bracelet or rubber band of appropriate width and size.(Optional) (https://www.amazon.com/dp/B0CPJPN41V?th=1)
-- PTFE Tube OD 4mm, ID 2mm
+- PTFE Tube OD 4mm, ID 2.5mm or 3mm
 
 # Filamentalist F1
 
