@@ -1,5 +1,19 @@
 forked from (https://github.com/SkiBikePrint/ERCF_Mods/tree/main/Filamentalist)
 
+# BOM
+
+- 608 Bearing x 5
+- Rubber O - ring ID ~20mm , OD ~26mm AN-211
+- 623 Bearing x 2 (Optional)
+- ECAS04
+- Ball pen Spring 20mm (https://ko.aliexpress.com/w/wholesale-ball-pen-spring.html?spm=a2g0o.detail.search.0)
+- 55mm ~ 60mm Length , 8mm Diameter shaft or dowell pin
+- 3mm insert nut
+- M3 Socket head bolts
+- M3 Flat head bolts
+- Rubber Band(Optional)
+- PTFE Tube OD 4mm, ID 2mm
+
 # Filamentalist F1
 
 ## Changes and Improvements
