@@ -1,1 +1,1 @@
-the Filamentalist repository has been moved here:  [https://github.com/SkiBikePrint/Filamentalist](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/rc2/Recommended_Options/Filamentalist_Rewinder)
+the Filamentalist repository has been moved here:  [[https://github.com/SkiBikePrint/Filamentalist](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/rc2/Recommended_Options/Filamentalist_Rewinder)](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/rc2/Recommended_Options/Filamentalist_Rewinder)
