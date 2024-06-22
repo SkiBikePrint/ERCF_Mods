@@ -14,7 +14,7 @@ BOM:
 
 - Seal Material - ~10m or 32ft of 3/8" wide x 1/4" high (9mm x 6mm) self-adhesive weather seal.  Something like this:  https://www.homedepot.com/p/M-D-Building-Products-17-ft-Black-Small-Rubber-Auto-Marine-Weatherseal-for-All-Climates-01025/202066509, or https://www.amazon.com/Insulation-Weatherproof-Soundproofing-Self-Adhesive-Weatherstrip/dp/B082HDZ1P1?th=1, or https://www.aliexpress.us/item/3256806396445681.html.  Most of the glue needs to be peeled off so you want the style that has the "strings" embedded in the glue to aid in removal.
 
-- M5x10/12mm length BHCS or SHCS - Qty 6 - For securing endc caps to extrusions.  BHCS (Button Head) looks the best.
+- M5x10/12mm length BHCS or SHCS - Qty 6 - For securing end caps to extrusions.  BHCS (Button Head) looks the best.
 
 - M5 10mm length BHCS - Qty 4 - for mounting hinges to base and lid frames
 
