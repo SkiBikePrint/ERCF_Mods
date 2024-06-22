@@ -16,7 +16,9 @@ BOM:
 
 - M5x10/12mm length BHCS or SHCS - Qty 6 - For securing endc caps to extrusions.  BHCS (Button Head) looks the best.
 
-- M5 x 16/18/20mm length SHCS or BHCS - Qty 2 - Hinge Screws.
+- M5 10mm length BHCS - Qty 4 - for mounting hinges to base and lid frames
+
+- M5 x 16/18/20mm length BHCS - Qty 2 - Hinge Pin Screws.
 
 - M3 x 4/5mm length BHCS or SHCS - Qty 2 - for tying lid panel to lid endcaps.
 
