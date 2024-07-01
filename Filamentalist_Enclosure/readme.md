@@ -25,3 +25,5 @@ BOM:
 - 5mm Heatset Insert - Qty 2 - Optional, for setting how far the lid hinges back.
 
 - M5 x 8/10mm length SHCS - Qty 2 - Optional, for setting how far the lid hinges back.
+
+There is room, and some special "far left" and "far right" supports that allow you to build one ~94mm wide Filamentalist unit using the parametric model to support a wider spool like KVP or NinjaFlex.
