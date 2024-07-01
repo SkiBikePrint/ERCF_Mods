@@ -27,3 +27,7 @@ BOM:
 - M5 x 8/10mm length SHCS - Qty 2 - Optional, for setting how far the lid hinges back.
 
 There is room, and some special "far left" and "far right" extended supports that allow you to build one ~94mm wide Filamentalist unit using the parametric model to support a wider spool like KVP or NinjaFlex.
+
+Assembly Tips:
+
+The 0.060" Lexan bends easily but it is not easy to bend it and get it captured in the lid endcaps and extrusions.  Its a two person job. If doing it alone and use 2 or 3 loops of string set at the right length to hold the correct bend and spacing at the edges of the Lexan.  Secure the non-captured end of the extrusions with a loop of strip or tape so that you don't overflex and crack the endcap that is screwed on while wrestling this thing together.
