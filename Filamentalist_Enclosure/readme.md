@@ -28,6 +28,25 @@ BOM:
 
 There is room, and some special "far left" and "far right" extended supports that allow you to build one ~94mm wide Filamentalist unit using the parametric model to support a wider spool like KVP or NinjaFlex.
 
-Assembly Tips:
+**Assembly Tips:**
 
-The 0.060" Lexan bends easily but it is not easy to bend it and get it captured in the lid endcaps and extrusions.  Its a two person job. If doing it alone and use 2 or 3 loops of string set at the right length to hold the correct bend and spacing at the edges of the Lexan.  Secure the non-captured end of the extrusions with a loop of strip or tape so that you don't overflex and crack the endcap that is screwed on while wrestling this thing together.
+**Lid Panel Installation:** The 0.060" Lexan bends easily but it is not easy to bend it and get it captured in the lid endcaps and extrusions.  Its a two person job. If doing it alone and use 2 or 3 loops of string set at the right length to hold the correct bend and spacing at the edges of the Lexan.  Secure the non-captured end of the extrusions with a loop of strip or tape so that you don't overflex and crack the endcap that is screwed on while wrestling this thing together.
+
+**Seal Installation:**
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f93ed33f1c8511d502d34e729206b746fa133d2f/Filamentalist_Enclosure/Assets/Seal_Install_1.jpg" width="475" height="475">
+</p>
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f93ed33f1c8511d502d34e729206b746fa133d2f/Filamentalist_Enclosure/Assets/Seal_Install_2.jpg" width="475" height="475">
+</p>
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f93ed33f1c8511d502d34e729206b746fa133d2f/Filamentalist_Enclosure/Assets/Seal_Install_3.jpg" width="475" height="475">
+</p>
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f93ed33f1c8511d502d34e729206b746fa133d2f/Filamentalist_Enclosure/Assets/Seal_Install_4.jpg" width="475" height="475">
+</p>
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/f93ed33f1c8511d502d34e729206b746fa133d2f/Filamentalist_Enclosure/Assets/Seal_Install_5.jpg" width="475" height="475">
+</p>
+
+**Securing/Sealing on Printer:**
+
+For a Voron enclosure you can "straddle" the top panel like the pic below.  Drill 2 countersunk holes in the top panel and screw them into t-nuts in the bottom enclosure extrusion.  The screw heads sit just below the panel surface so that the bowden tube doesnt catch on them while the print head is zooming around.   Run seal material in the rear bottom extrusion channel of the enclosure. Cut out sections of the weather stripping base to make space for the t-nuts to sit under but leave a continuous piece of weatherstripping seal running over the top of the t-nuts.  You can stick toothpicks into the t-nut holes (or 3mm screws with the heads cut off) to serve as locating pegs when you drop the enclosure onto the printer to make sure the top panel holes align with the t-nut locations.  This will pull  the top panel against the seal and is enough to secure the enclosure in place on the printer.
+
+<img src="https://github.com/SkiBikePrint/ERCF_Mods/blob/bb7fdd7f198937ab097e0a71e6ffcc328b678437/Filamentalist_Enclosure/Assets/Base_Attachment.jpg" width="950" height="475">
