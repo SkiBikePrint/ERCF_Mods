@@ -1,4 +1,4 @@
-# <h1 align="center"> The Filamentalist Enclosure repo can now be found as part of the ERCF V2 project as a User Mod [here](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder/User_Mods/SkiBikeMake/Filamentalist_Enclosure) <p align="center"> #
+# <h1 align="center"> The Filamentalist Enclosure repo can now be found as part of the ERCF V2 project as a User Mod [here](https://github.com/Enraged-Rabbit-Community/ERCF_v2/tree/master/Recommended_Options/Filamentalist_Rewinder/Filamentalist_Enclosure) <p align="center"> #
 
 
 The Filamentalist Enclosure is a passive dry box designed to house the Filamentalist passive rewinder.  It  consists of (4) printed endcaps, (6) pieces of 2020 extrusion cut/ordered to the desired length, and 0.060" (1/16') polycarbonate sheet(s) cut to size. 
